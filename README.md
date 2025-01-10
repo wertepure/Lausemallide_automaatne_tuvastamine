@@ -27,4 +27,5 @@ Andmebaasi loomiseks kasutatud kood asub [siin](https://github.com/rabauti/prg19
 **tulemused**: automaatselt tuvastatud lausemallid ja nende kvaliteet
 * *automaatse_tuvastamise_kvaliteet.xlsx*: automaatselt tuvastatud seotud laiendite ja lausemallide kvaliteedi analüüs. Koosneb nii arvulisest infost kui ka vale tuvastuse põhjustest. 
 * *liigutamisverbide_mallid_sorteeritud.xlsx*: kõik automaatselt tuvastatud lausemallid. 
-NB! Tulemuste põhjaliku analüüsiga saab tutvuda magistritöös ["Eesti keele lausemallide automaatne tuvastamine liigutamisverbide näitel"](https://dspace.ut.ee/items/3d8811f8-a0d8-400c-a37d-c2e31ef5c951).
+
+**NB!** Tulemuste põhjaliku analüüsiga saab tutvuda magistritöös ["Eesti keele lausemallide automaatne tuvastamine liigutamisverbide näitel"](https://dspace.ut.ee/items/3d8811f8-a0d8-400c-a37d-c2e31ef5c951).
