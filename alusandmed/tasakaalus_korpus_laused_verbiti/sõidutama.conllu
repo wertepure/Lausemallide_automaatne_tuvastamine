@@ -1,0 +1,1848 @@
+# sent_id = 371861
+# text = Tõlkevigadest oli kõige silmahakkavam soomekeelne oja , mis on eesti keeles kraav , vähemalt antud kontekstis : autojuht tegi avarii ja sõidutas kirjaniku kraavi , mitte ojja .
+1	Tõlkevigadest	Tõlkevigadest	S	S	Case=nom|Number=sg	6	nsubj:cop	H_lemma:oja	_
+2	oli	olema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	6	cop	H_lemma:oja	_
+3	kõige	kõige	D	D	_	4	advmod	H_lemma:silmahakkavam	_
+4	silmahakkavam	silmahakkavam	A	A	Case=nom|Number=sg	6	amod	H_lemma:oja	_
+5	soomekeelne	soomekeelne	A	A	Case=nom|Number=sg	6	amod	H_lemma:oja	_
+6	oja	oja	S	S	Case=nom|Number=sg	0	root	_	_
+7	,	,	Z	Z	_	12	punct	H_lemma:kraav	_
+8	mis	mis	P	P	Case=nom|Number=pl	12	nsubj:cop	H_lemma:kraav	_
+9	on	olema	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	12	cop	H_lemma:kraav	_
+10	eesti	eesti	G	G	_	11	amod	H_lemma:keel	_
+11	keeles	keel	S	S	Case=in|Number=sg	12	nmod	H_lemma:kraav	_
+12	kraav	kraav	S	S	Case=nom|Number=sg	6	acl:relcl	H_lemma:oja	_
+13	,	,	Z	Z	_	16	punct	H_lemma:kontekst	_
+14	vähemalt	vähemalt	D	D	_	15	advmod	H_lemma:andma	_
+15	antud	andma	V	V	Mood=indic|Polarity=neg|Tense=impf|VerbType=main|Voice=imps	16	acl	H_lemma:kontekst	_
+16	kontekstis	kontekst	S	S	Case=in|Number=sg	12	obl	H_lemma:kraav	_
+17	:	:	Z	Z	_	19	punct	H_lemma:tegema	_
+18	autojuht	autojuht	S	S	Case=nom|Number=sg	19	nsubj	H_lemma:tegema	_
+19	tegi	tegema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	12	parataxis	H_lemma:kraav	_
+20	avarii	avarii	S	S	Case=gen|Number=sg	19	obj	H_lemma:tegema	_
+21	ja	ja	J	J	_	22	cc	H_lemma:sõidutama	_
+22	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	19	conj	H_lemma:tegema	_
+23	kirjaniku	kirjanik	S	S	Case=gen|Number=sg	22	obj	H_lemma:sõidutama	_
+24	kraavi	kraav	S	S	Case=adit|Number=sg	22	obl	H_lemma:sõidutama	_
+25	,	,	Z	Z	_	27	punct	H_lemma:oja	_
+26	mitte	mitte	D	D	_	27	advmod	H_lemma:oja	_
+27	ojja	oja	S	S	Case=adit|Number=sg	24	conj	H_lemma:kraav	_
+28	.	.	Z	Z	_	6	punct	H_lemma:oja	_
+
+# sent_id = 611809
+# text = Rasketes kuritegudes süüdistatav Rein Laid sõidutas kohtunikku ja viis lilli
+1	Rasketes	raske	A	A	Case=in|Number=pl	2	amod	H_lemma:kuritegu	_
+2	kuritegudes	kuritegu	S	S	Case=in|Number=pl	3	obl	H_lemma:süüdistatav	_
+3	süüdistatav	süüdistatav	A	A	Case=nom|Number=sg	4	acl	H_lemma:Rein	_
+4	Rein	Rein	S	S	Case=nom|Number=sg	6	nsubj	H_lemma:sõidutama	_
+5	Laid	Lai	S	S	Case=nom|Number=pl	4	flat	H_lemma:Rein	_
+6	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	0	root	_	_
+7	kohtunikku	kohtunik	S	S	Case=part|Number=sg	6	obj	H_lemma:sõidutama	_
+8	ja	ja	J	J	_	10	cc	H_lemma:lill	_
+9	viis	viis	N	N	Case=nom|Number=sg	10	nummod	H_lemma:lill	_
+10	lilli	lill	S	S	Case=part|Number=pl	7	conj	H_lemma:kohtunik	_
+
+# sent_id = 611812
+# text = Eesti Päevalehe andmeil kinkis Laid kohtunikule naistepäevaks lilli ja sõidutas teda tihti töölt koju .
+1	Eesti	Eesti	S	S	Case=gen|Number=sg	2	nmod	H_lemma:Päevaleht	_
+2	Päevalehe	Päevaleht	S	S	Case=gen|Number=sg	3	nmod	H_lemma:andmed	_
+3	andmeil	andmed	S	S	Case=ad|Number=pl	4	obl	H_lemma:kinkima	_
+4	kinkis	kinkima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	0	root	_	_
+5	Laid	laid	S	S	Case=nom|Number=sg	4	nsubj	H_lemma:kinkima	_
+6	kohtunikule	kohtunik	S	S	Case=all|Number=sg	4	obl	H_lemma:kinkima	_
+7	naistepäevaks	naistepäev	S	S	Case=tr|Number=sg	4	xcomp	H_lemma:kinkima	_
+8	lilli	lill	S	S	Case=part|Number=pl	4	obj	H_lemma:kinkima	_
+9	ja	ja	J	J	_	10	cc	H_lemma:sõidutama	_
+10	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	4	conj	H_lemma:kinkima	_
+11	teda	tema	P	P	Case=part|Number=sg	10	obj	H_lemma:sõidutama	_
+12	tihti	tihti	D	D	_	10	advmod	H_lemma:sõidutama	_
+13	töölt	töö	S	S	Case=abl|Number=sg	10	obl	H_lemma:sõidutama	_
+14	koju	kodu	S	S	Case=adit|Number=sg	10	obl	H_lemma:sõidutama	_
+15	.	.	Z	Z	_	4	punct	H_lemma:kinkima	_
+
+# sent_id = 611815
+# text = Paarikest jälginud ajakirjaniku väitel veetis kohtualune kogu istungile järgnenud tunni kohtunikuga kohtuhoones ja sõidutas Andrejeva hiljem koju .
+1	Paarikest	paarike	S	S	Case=part|Number=sg	2	obj	H_lemma:jälgima	_
+2	jälginud	jälgima	V	V	Mood=indic|Polarity=neg|Tense=impf|VerbType=aux|Voice=ps	3	acl	H_lemma:ajakirjanik	_
+3	ajakirjaniku	ajakirjanik	S	S	Case=gen|Number=sg	4	nmod	H_lemma:väide	_
+4	väitel	väide	S	S	Case=ad|Number=sg	5	obl	H_lemma:veetma	_
+5	veetis	veetma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	0	root	_	_
+6	kohtualune	kohtualune	S	S	Case=nom|Number=sg	5	nsubj	H_lemma:veetma	_
+7	kogu	kogu	A	A	_	8	det	H_lemma:istung	_
+8	istungile	istung	S	S	Case=all|Number=sg	9	obl	H_lemma:järgnema	_
+9	järgnenud	järgnema	V	V	Mood=indic|Polarity=neg|Tense=impf|VerbType=aux|Voice=ps	10	acl	H_lemma:tund	_
+10	tunni	tund	S	S	Case=gen|Number=sg	11	nmod	H_lemma:kohtunik	_
+11	kohtunikuga	kohtunik	S	S	Case=kom|Number=sg	12	nmod	H_lemma:kohtuhoone	_
+12	kohtuhoones	kohtuhoone	S	S	Case=in|Number=sg	5	obl	H_lemma:veetma	_
+13	ja	ja	J	J	_	14	cc	H_lemma:sõidutama	_
+14	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	5	conj	H_lemma:veetma	_
+15	Andrejeva	Andrejeva	S	S	Case=nom|Number=sg	14	obj	H_lemma:sõidutama	_
+16	hiljem	hiljem	D	D	_	14	advmod	H_lemma:sõidutama	_
+17	koju	kodu	S	S	Case=adit|Number=sg	14	obl	H_lemma:sõidutama	_
+18	.	.	Z	Z	_	5	punct	H_lemma:veetma	_
+
+# sent_id = 2206194
+# text = Samal ajal kui Ühispank sõidutas omavalitsusjuhte kalli raha eest Kariibi mere äärde , võttis Eesti Päevaleht ette retke Cloacina kuningriiki , milleta ükski inimene hakkama ei saa .
+1	Samal	sama	P	P	Case=ad|Number=sg	2	det	H_lemma:aeg	_
+2	ajal	aeg	S	S	Case=ad|Number=sg	14	obl	H_lemma:võtma	_
+3	kui	kui	D	D	_	5	mark	H_lemma:sõidutama	_
+4	Ühispank	ühispank	S	S	Case=nom|Number=sg	5	nsubj	H_lemma:sõidutama	_
+5	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	14	advcl	H_lemma:võtma	_
+6	omavalitsusjuhte	omavalitsusjuht	S	S	Case=part|Number=pl	5	obj	H_lemma:sõidutama	_
+7	kalli	kallis	A	A	Case=gen|Number=sg	8	amod	H_lemma:raha	_
+8	raha	raha	S	S	Case=gen|Number=sg	5	obl	H_lemma:sõidutama	_
+9	eest	eest	K	K	AdpType=post	8	case	H_lemma:raha	_
+10	Kariibi	Kariibi	S	S	Case=gen|Number=sg	11	nmod	H_lemma:meri	_
+11	mere	meri	S	S	Case=gen|Number=sg	5	obl	H_lemma:sõidutama	_
+12	äärde	äärde	K	K	AdpType=post	11	case	H_lemma:meri	_
+13	,	,	Z	Z	_	5	punct	H_lemma:sõidutama	_
+14	võttis	võtma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+15	Eesti	Eesti	S	S	Case=nom|Number=sg	16	nmod	H_lemma:Päevaleht	_
+16	Päevaleht	Päevaleht	S	S	Case=nom|Number=sg	14	nsubj	H_lemma:võtma	_
+17	ette	ette	D	D	_	14	compound:prt	H_lemma:võtma	_
+18	retke	retk	S	S	Case=gen|Number=sg	20	nmod	H_lemma:kuningriik	_
+19	Cloacina	Cloacina	S	S	Case=gen|Number=sg	18	appos	H_lemma:retk	_
+20	kuningriiki	kuningriik	S	S	Case=part|Number=sg	14	obj	H_lemma:võtma	_
+21	,	,	Z	Z	_	27	punct	H_lemma:saama	_
+22	milleta	mis	P	P	Case=abes|Number=sg	27	obl	H_lemma:saama	_
+23	ükski	üks	P	P	Case=nom|Number=sg	24	det	H_lemma:inimene	_
+24	inimene	inimene	S	S	Case=nom|Number=sg	27	nsubj	H_lemma:saama	_
+25	hakkama	hakkama	V	V	Case=ill|VerbForm=sup|VerbType=main|Voice=ps	27	xcomp	H_lemma:saama	_
+26	ei	ei	V	V	Polarity=neg|VerbType=aux	27	aux	H_lemma:saama	_
+27	saa	saama	V	V	Mood=imper|Number=sg|Person=ps2|Polarity=neg|Tense=pres|VerbType=aux|Voice=ps	20	acl:relcl	H_lemma:kuningriik	_
+28	.	.	Z	Z	_	14	punct	H_lemma:võtma	_
+
+# sent_id = 2478921
+# text = Seepeale sõidutas pereisa Pärnust 30 kilomeetri kaugusele koju lastetohtri , kes vaatas imiku üle ja leidis , et temaga on kõik korras .
+1	Seepeale	seepeale	D	D	_	2	advmod	H_lemma:sõidutama	_
+2	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+3	pereisa	pereisa	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:sõidutama	_
+4	Pärnust	Pärnu	S	S	Case=el|Number=sg	2	obl	H_lemma:sõidutama	_
+5	30	30	N	N	_	6	nummod	H_lemma:kilomeeter	_
+6	kilomeetri	kilomeeter	S	S	Case=gen|Number=sg	7	nmod	H_lemma:kaugus	_
+7	kaugusele	kaugus	S	S	Case=all|Number=sg	2	obl	H_lemma:sõidutama	_
+8	koju	kodu	S	S	Case=adit|Number=sg	2	obl	H_lemma:sõidutama	_
+9	lastetohtri	lastetohter	S	S	Case=gen|Number=sg	2	obj	H_lemma:sõidutama	_
+10	,	,	Z	Z	_	12	punct	H_lemma:vaatama	_
+11	kes	kes	P	P	Case=nom|Number=sg	12	nsubj	H_lemma:vaatama	_
+12	vaatas	vaatama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	9	acl:relcl	H_lemma:lastetohter	_
+13	imiku	imik	S	S	Case=gen|Number=sg	12	obj	H_lemma:vaatama	_
+14	üle	üle	K	K	AdpType=post	12	compound:prt	H_lemma:vaatama	_
+15	ja	ja	J	J	_	16	cc	H_lemma:leidma	_
+16	leidis	leidma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	12	conj	H_lemma:vaatama	_
+17	,	,	Z	Z	_	22	punct	H_lemma:korras	_
+18	et	et	J	J	_	22	mark	H_lemma:korras	_
+19	temaga	tema	P	P	Case=kom|Number=sg	22	obl	H_lemma:korras	_
+20	on	olema	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	22	cop	H_lemma:korras	_
+21	kõik	kõik	P	P	Case=nom|Number=sg	22	nsubj:cop	H_lemma:korras	_
+22	korras	korras	A	A	_	16	ccomp	H_lemma:leidma	_
+23	.	.	Z	Z	_	2	punct	H_lemma:sõidutama	_
+
+# sent_id = 3331493
+# text = Buss sõidutas viit reisijat Viljandi poole , ütles politseiameti pressiesindaja Annela Laaneots .
+1	Buss	Buss	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:sõidutama	_
+2	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	0	root	_	_
+3	viit	viis	N	N	Case=part|Number=sg	4	nummod	H_lemma:reisija	_
+4	reisijat	reisija	S	S	Case=part|Number=sg	2	obj	H_lemma:sõidutama	_
+5	Viljandi	Viljandi	S	S	Case=gen|Number=sg	2	obl	H_lemma:sõidutama	_
+6	poole	poole	K	K	AdpType=post	5	case	H_lemma:Viljandi	_
+7	,	,	Z	Z	_	8	punct	H_lemma:ütlema	_
+8	ütles	ütlema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	2	conj	H_lemma:sõidutama	_
+9	politseiameti	politseiamet	S	S	Case=gen|Number=sg	10	nmod	H_lemma:pressiesindaja	_
+10	pressiesindaja	pressiesindaja	S	S	Case=nom|Number=sg	8	nsubj	H_lemma:ütlema	_
+11	Annela	Annela	S	S	Case=nom|Number=sg	10	appos	H_lemma:pressiesindaja	_
+12	Laaneots	Laaneots	S	S	Case=nom|Number=sg	11	flat	H_lemma:Annela	_
+13	.	.	Z	Z	_	2	punct	H_lemma:sõidutama	_
+
+# sent_id = 3331498
+# text = Politsei sõidutas bussireisijad tagasi Tartusse .
+1	Politsei	politsei	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:sõidutama	_
+2	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	0	root	_	_
+3	bussireisijad	bussireisija	S	S	Case=nom|Number=pl	2	obj	H_lemma:sõidutama	_
+4	tagasi	tagasi	K	K	AdpType=post	2	compound:prt	H_lemma:sõidutama	_
+5	Tartusse	Tartu	S	S	Case=ill|Number=sg	2	obl	H_lemma:sõidutama	_
+6	.	.	Z	Z	_	2	punct	H_lemma:sõidutama	_
+
+# sent_id = 3752380
+# text = Polegi vaja mingeid ekstraid ( a la Eesti Ekspress ja Maaleht sõidutavad teid ei-tea-kuhu , kui neid tellite jne ) .
+1	Polegi	olema	V	V	Mood=indic|Polarity=neg|Tense=pres|VerbType=aux|Voice=ps	0	root	_	_
+2	vaja	vaja	D	D	_	1	compound:prt	H_lemma:olema	_
+3	mingeid	mingi	P	P	Case=part|Number=pl	4	det	H_lemma:ekstrai	_
+4	ekstraid	ekstrai	S	S	Case=part|Number=sg	1	nsubj	H_lemma:olema	_
+5	(	(	Z	Z	_	11	punct	H_lemma:sõidutama	_
+6	a la	a la	Y	Y	_	8	nmod	H_lemma:Ekspress	_
+7	Eesti	Eesti	S	S	Case=gen|Number=sg	8	nmod	H_lemma:Ekspress	_
+8	Ekspress	Ekspress	S	S	Case=nom|Number=sg	11	nsubj	H_lemma:sõidutama	_
+9	ja	ja	J	J	_	10	cc	H_lemma:Maaleht	_
+10	Maaleht	Maaleht	S	S	Case=nom|Number=sg	8	conj	H_lemma:Ekspress	_
+11	sõidutavad	sõidutama	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	1	parataxis	H_lemma:olema	_
+12	teid	sina	P	P	Case=part|Number=pl	11	obj	H_lemma:sõidutama	_
+13	ei-tea-kuhu	ei-tea-kuhu	D	D	_	11	advmod	H_lemma:sõidutama	_
+14	,	,	Z	Z	_	17	punct	H_lemma:tellima	_
+15	kui	kui	J	J	_	17	mark	H_lemma:tellima	_
+16	neid	see	P	P	Case=part|Number=pl	17	obj	H_lemma:tellima	_
+17	tellite	tellima	V	V	Mood=indic|Number=pl|Person=ps2|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	11	advcl	H_lemma:sõidutama	_
+18	jne	jne	Y	Y	_	17	obl	H_lemma:tellima	_
+19	)	)	Z	Z	_	11	punct	H_lemma:sõidutama	_
+20	.	.	Z	Z	_	1	punct	H_lemma:olema	_
+
+# sent_id = 3776893
+# text = FC Flora alla kuuluvas spordikoolis harjutab umbes 250 Raplamaa poissi , keda bussid üle maakonna kokku sõidutavad .
+1	FC	FC	Y	Y	_	4	obl	H_lemma:kuuluv	_
+2	Flora	Flora	S	S	Case=nom|Number=sg	1	flat	H_lemma:FC	_
+3	alla	alla	D	D	_	1	case	H_lemma:FC	_
+4	kuuluvas	kuuluv	A	A	Case=in|Number=sg	5	acl	H_lemma:spordikool	_
+5	spordikoolis	spordikool	S	S	Case=in|Number=sg	6	obl	H_lemma:harjutama	_
+6	harjutab	harjutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	0	root	_	_
+7	umbes	umbes	D	D	_	8	advmod	H_lemma:250	_
+8	250	250	N	N	_	10	nummod	H_lemma:poiss	_
+9	Raplamaa	Raplamaa	S	S	Case=gen|Number=sg	10	nmod	H_lemma:poiss	_
+10	poissi	poiss	S	S	Case=part|Number=sg	6	nsubj	H_lemma:harjutama	_
+11	,	,	Z	Z	_	17	punct	H_lemma:sõidutama	_
+12	keda	kes	P	P	Case=part|Number=pl	17	obj	H_lemma:sõidutama	_
+13	bussid	buss	S	S	Case=nom|Number=pl	17	nsubj	H_lemma:sõidutama	_
+14	üle	üle	D	D	_	15	case	H_lemma:maakond	_
+15	maakonna	maakond	S	S	Case=gen|Number=sg	17	obl	H_lemma:sõidutama	_
+16	kokku	kokku	D	D	_	17	compound:prt	H_lemma:sõidutama	_
+17	sõidutavad	sõidutama	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	10	acl:relcl	H_lemma:poiss	_
+18	.	.	Z	Z	_	6	punct	H_lemma:harjutama	_
+
+# sent_id = 4377894
+# text = Linnavalitsuses on aga Svenil uus noor abiline , kes ta õuetoolist välja tõstab ning toatooli asetab ja tuppa sõidutab .
+1	Linnavalitsuses	linnavalitsus	S	S	Case=in|Number=sg	0	root	_	_
+2	on	olema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	4	cop	H_lemma:Sven	_
+3	aga	aga	J	J	_	4	advmod	H_lemma:Sven	_
+4	Svenil	Sven	S	S	Case=ad|Number=sg	1	obl	H_lemma:linnavalitsus	_
+5	uus	uus	A	A	Case=nom|Number=sg	7	amod	H_lemma:abiline	_
+6	noor	noor	A	A	Case=nom|Number=sg	7	amod	H_lemma:abiline	_
+7	abiline	abiline	S	S	Case=nom|Number=sg	4	nsubj:cop	H_lemma:Sven	_
+8	,	,	Z	Z	_	13	punct	H_lemma:tõstma	_
+9	kes	kes	P	P	Case=nom|Number=sg	13	nsubj	H_lemma:tõstma	_
+10	ta	tema	P	P	Case=gen|Number=sg	13	obj	H_lemma:tõstma	_
+11	õuetoolist	õuetool	S	S	Case=el|Number=sg	13	obl	H_lemma:tõstma	_
+12	välja	välja	D	D	_	13	compound:prt	H_lemma:tõstma	_
+13	tõstab	tõstma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	7	acl:relcl	H_lemma:abiline	_
+14	ning	ning	J	J	_	16	cc	H_lemma:asetama	_
+15	toatooli	toatool	S	S	Case=gen|Number=sg	16	obj	H_lemma:asetama	_
+16	asetab	asetama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	13	conj	H_lemma:tõstma	_
+17	ja	ja	J	J	_	19	cc	H_lemma:sõidutama	_
+18	tuppa	tuba	S	S	Case=adit|Number=sg	19	obl	H_lemma:sõidutama	_
+19	sõidutab	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	13	conj	H_lemma:tõstma	_
+20	.	.	Z	Z	_	4	punct	H_lemma:Sven	_
+
+# sent_id = 4768350
+# text = Brigita ( 4 ) võtab Alo tavaliselt otse lasteaiast kaasa ja sõidutab kogu pesakonna koju , Tartust 45 kilomeetri kaugusel asuvasse Vehendi külla .
+1	Brigita	Brigita	S	S	Case=nom|Number=sg	5	nsubj	H_lemma:võtma	_
+2	(	(	Z	Z	_	3	punct	H_lemma:4	_
+3	4	4	N	N	_	1	parataxis	H_lemma:Brigita	_
+4	)	)	Z	Z	_	3	punct	H_lemma:4	_
+5	võtab	võtma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	0	root	_	_
+6	Alo	Alo	S	S	Case=nom|Number=sg	5	nsubj	H_lemma:võtma	_
+7	tavaliselt	tavaliselt	D	D	_	5	advmod	H_lemma:võtma	_
+8	otse	otse	D	D	_	9	advmod	H_lemma:lasteaed	_
+9	lasteaiast	lasteaed	S	S	Case=el|Number=sg	5	obl	H_lemma:võtma	_
+10	kaasa	kaasa	D	D	_	5	compound:prt	H_lemma:võtma	_
+11	ja	ja	J	J	_	12	cc	H_lemma:sõidutama	_
+12	sõidutab	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	5	conj	H_lemma:võtma	_
+13	kogu	kogu	A	A	_	14	det	H_lemma:pesakond	_
+14	pesakonna	pesakond	S	S	Case=gen|Number=sg	12	obj	H_lemma:sõidutama	_
+15	koju	kodu	S	S	Case=adit|Number=sg	12	obl	H_lemma:sõidutama	_
+16	,	,	Z	Z	_	17	punct	H_lemma:Tartu	_
+17	Tartust	Tartu	S	S	Case=el|Number=sg	12	obl	H_lemma:sõidutama	_
+18	45	45	N	N	_	19	nummod	H_lemma:kilomeeter	_
+19	kilomeetri	kilomeeter	S	S	Case=gen|Number=sg	21	obl	H_lemma:asuv	_
+20	kaugusel	kaugusel	K	K	AdpType=post	19	case	H_lemma:kilomeeter	_
+21	asuvasse	asuv	A	A	Case=ill|Number=sg	23	acl	H_lemma:küll	_
+22	Vehendi	Vehent	S	S	Case=gen|Number=sg	23	nmod	H_lemma:küll	_
+23	külla	küll	S	S	Case=adit|Number=sg	12	obl	H_lemma:sõidutama	_
+24	.	.	Z	Z	_	5	punct	H_lemma:võtma	_
+
+# sent_id = 4792155
+# text = Pressiesindaja küsimusele , kas on tõsi , et Mika on oma abikaasat Erjat sõidutanud 2-kohalisel vormelautol talvises Soomes , vastas Mika jaatavalt .
+1	Pressiesindaja	pressiesindaja	S	S	Case=gen|Number=sg	2	nmod	H_lemma:küsimus	_
+2	küsimusele	küsimus	S	S	Case=all|Number=sg	20	obl	H_lemma:vastama	_
+3	,	,	Z	Z	_	6	punct	H_lemma:tõsi	_
+4	kas	kas	D	D	_	6	advmod	H_lemma:tõsi	_
+5	on	olema	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	6	cop	H_lemma:tõsi	_
+6	tõsi	tõsi	S	S	Case=nom|Number=sg	2	acl	H_lemma:küsimus	_
+7	,	,	Z	Z	_	14	punct	H_lemma:sõidutama	_
+8	et	et	J	J	_	14	mark	H_lemma:sõidutama	_
+9	Mika	Mika	S	S	Case=nom|Number=sg	14	nsubj	H_lemma:sõidutama	_
+10	on	olema	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	14	aux	H_lemma:sõidutama	_
+11	oma	oma	P	P	Case=gen|Number=sg	12	nmod	H_lemma:abikaasa	_
+12	abikaasat	abikaasa	S	S	Case=part|Number=sg	14	obj	H_lemma:sõidutama	_
+13	Erjat	Erjat	S	S	Case=nom|Number=sg	12	appos	H_lemma:abikaasa	_
+14	sõidutanud	sõidutama	V	V	Tense=past|VerbForm=partic|VerbType=mod|Voice=ps	6	csubj:cop	H_lemma:tõsi	_
+15	2-kohalisel	2kohaline	A	A	Case=ad|Number=sg	16	amod	H_lemma:vormelauto	_
+16	vormelautol	vormelauto	S	S	Case=ad|Number=sg	14	obl	H_lemma:sõidutama	_
+17	talvises	talvine	A	A	Case=in|Number=sg	18	amod	H_lemma:Soome	_
+18	Soomes	Soome	S	S	Case=in|Number=sg	14	obl	H_lemma:sõidutama	_
+19	,	,	Z	Z	_	14	punct	H_lemma:sõidutama	_
+20	vastas	vastama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	0	root	_	_
+21	Mika	Mika	S	S	Case=nom|Number=sg	20	nsubj	H_lemma:vastama	_
+22	jaatavalt	jaatavalt	D	D	_	20	advmod	H_lemma:vastama	_
+23	.	.	Z	Z	_	20	punct	H_lemma:vastama	_
+
+# sent_id = 6693630
+# text = Nädalavahetustel ja pühade ajal sõidutavad kliente vaid pooled olemasolevatest ehk kuni 30 Krooni taksot .
+1	Nädalavahetustel	nädalavahetus	S	S	Case=ad|Number=pl	5	obl	H_lemma:sõidutama	_
+2	ja	ja	J	J	_	3	cc	H_lemma:püha	_
+3	pühade	püha	S	S	Case=gen|Number=pl	1	conj	H_lemma:nädalavahetus	_
+4	ajal	ajal	K	K	AdpType=post	3	case	H_lemma:püha	_
+5	sõidutavad	sõidutama	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	0	root	_	_
+6	kliente	klient	S	S	Case=part|Number=pl	5	obj	H_lemma:sõidutama	_
+7	vaid	vaid	D	D	_	8	advmod	H_lemma:pool	_
+8	pooled	pool	S	S	Case=nom|Number=pl	5	nsubj	H_lemma:sõidutama	_
+9	olemasolevatest	olemasolev	S	S	Case=el|Number=pl	8	acl	H_lemma:pool	_
+10	ehk	ehk	J	J	_	13	cc	H_lemma:kroon	_
+11	kuni	kuni	K	K	AdpType=post	13	advmod	H_lemma:kroon	_
+12	30	30	N	N	_	13	nummod	H_lemma:kroon	_
+13	Krooni	kroon	S	S	Case=part|Number=sg	14	nmod	H_lemma:takso	_
+14	taksot	takso	S	S	Case=part|Number=sg	8	conj	H_lemma:pool	_
+15	.	.	Z	Z	_	5	punct	H_lemma:sõidutama	_
+
+# sent_id = 6913617
+# text = Berit tundis end lausa kiindunud olevat sellesse värvi pärast seda , kui oli olnud aasta tagasi Rootsis ühel arhiivialasel konverentsil ja kolleegid sõidutasid konverentsist osavõtjad Rootsi suusakuurorti Faluni .
+1	Berit	Berit	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:tundma	_
+2	tundis	tundma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+3	end	ise	P	P	Case=part|Number=sg	2	obj	H_lemma:tundma	_
+4	lausa	lausa	D	D	_	5	advmod	H_lemma:kiinduma	_
+5	kiindunud	kiinduma	V	V	Tense=past|VerbForm=partic|VerbType=mod|Voice=ps	2	xcomp	H_lemma:tundma	_
+6	olevat	olema	V	V	Mood=quot|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	2	xcomp	H_lemma:tundma	_
+7	sellesse	see	P	P	Case=ill|Number=sg	8	det	H_lemma:värv	_
+8	värvi	värv	S	S	Case=part|Number=sg	2	obl	H_lemma:tundma	_
+9	pärast	pärast	K	K	AdpType=post	10	case	H_lemma:see	_
+10	seda	see	P	P	Case=part|Number=sg	2	obl	H_lemma:tundma	_
+11	,	,	Z	Z	_	14	punct	H_lemma:olema	_
+12	kui	kui	J	J	_	14	mark	H_lemma:olema	_
+13	oli	olema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	14	aux	H_lemma:olema	_
+14	olnud	olema	V	V	Tense=past|VerbForm=partic|VerbType=aux|Voice=ps	2	advcl	H_lemma:tundma	_
+15	aasta	aasta	S	S	Case=nom|Number=sg	14	obl	H_lemma:olema	_
+16	tagasi	tagasi	K	K	AdpType=post	15	case	H_lemma:aasta	_
+17	Rootsis	Rootsi	S	S	Case=in|Number=sg	14	obl	H_lemma:olema	_
+18	ühel	üks	N	N	Case=ad|Number=sg	20	det	H_lemma:konverents	_
+19	arhiivialasel	arhiivialane	A	A	Case=ad|Number=sg	20	amod	H_lemma:konverents	_
+20	konverentsil	konverents	S	S	Case=ad|Number=sg	14	obl	H_lemma:olema	_
+21	ja	ja	J	J	_	23	cc	H_lemma:sõidutama	_
+22	kolleegid	kolleeg	S	S	Case=nom|Number=pl	23	nsubj	H_lemma:sõidutama	_
+23	sõidutasid	sõidutama	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	14	conj	H_lemma:olema	_
+24	konverentsist	konverents	S	S	Case=el|Number=sg	23	obl	H_lemma:sõidutama	_
+25	osavõtjad	osavõtja	S	S	Case=nom|Number=pl	23	obj	H_lemma:sõidutama	_
+26	Rootsi	Rootsi	S	S	Case=gen|Number=sg	27	nmod	H_lemma:suusakuurort	_
+27	suusakuurorti	suusakuurort	S	S	Case=adit|Number=sg	23	obl	H_lemma:sõidutama	_
+28	Faluni	Falun	S	S	Case=gen|Number=sg	27	appos	H_lemma:suusakuurort	_
+29	.	.	Z	Z	_	2	punct	H_lemma:tundma	_
+
+# sent_id = 7076688
+# text = Mehed tõstsid hommikul talli juures vankri kasti ree peale , Leida rakendas sama hobuse , kellega ta lõpnud põrsakest linna ja sealt tagasi sõidutas , aiste vahele ning hakkas sigala juurde kartuleid vedama .
+1	Mehed	mees	S	S	Case=nom|Number=pl	2	nsubj	H_lemma:tõstma	_
+2	tõstsid	tõstma	V	V	Mood=indic|Number=sg|Person=ps2|Polarity=af|Tense=impf|VerbType=main|Voice=ps	0	root	_	_
+3	hommikul	hommik	S	S	Case=ad|Number=sg	2	obl	H_lemma:tõstma	_
+4	talli	tall	S	S	Case=gen|Number=sg	2	obl	H_lemma:tõstma	_
+5	juures	juures	K	K	AdpType=post	4	case	H_lemma:tall	_
+6	vankri	vanker	S	S	Case=gen|Number=sg	2	obj	H_lemma:tõstma	_
+7	kasti	kast	S	S	Case=gen|Number=sg	2	obj	H_lemma:tõstma	_
+8	ree	regi	S	S	Case=gen|Number=sg	2	obj	H_lemma:tõstma	_
+9	peale	peale	K	K	AdpType=post	8	case	H_lemma:regi	_
+10	,	,	Z	Z	_	12	punct	H_lemma:rakendama	_
+11	Leida	Leida	S	S	Case=nom|Number=sg	12	nsubj	H_lemma:rakendama	_
+12	rakendas	rakendama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	2	conj	H_lemma:tõstma	_
+13	sama	sama	P	P	Case=gen|Number=sg	14	det	H_lemma:hobune	_
+14	hobuse	hobune	S	S	Case=gen|Number=sg	12	obj	H_lemma:rakendama	_
+15	,	,	Z	Z	_	18	punct	H_lemma:lõpma	_
+16	kellega	kes	P	P	Case=kom|Number=sg	18	obl	H_lemma:lõpma	_
+17	ta	tema	P	P	Case=nom|Number=sg	18	nsubj	H_lemma:lõpma	_
+18	lõpnud	lõpma	V	V	Tense=past|VerbForm=partic|VerbType=main|Voice=ps	14	acl:relcl	H_lemma:hobune	_
+19	põrsakest	põrsake	S	S	Case=part|Number=sg	18	obj	H_lemma:lõpma	_
+20	linna	linn	S	S	Case=gen|Number=sg	18	obl	H_lemma:lõpma	_
+21	ja	ja	J	J	_	24	cc	H_lemma:sõidutama	_
+22	sealt	sealt	D	D	_	24	advmod	H_lemma:sõidutama	_
+23	tagasi	tagasi	D	D	_	24	compound:prt	H_lemma:sõidutama	_
+24	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	18	conj	H_lemma:lõpma	_
+25	,	,	Z	Z	_	24	punct	H_lemma:sõidutama	_
+26	aiste	ais	S	S	Case=gen|Number=pl	24	obl	H_lemma:sõidutama	_
+27	vahele	vahele	K	K	AdpType=post	26	case	H_lemma:ais	_
+28	ning	ning	J	J	_	29	cc	H_lemma:hakkama	_
+29	hakkas	hakkama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	18	conj	H_lemma:lõpma	_
+30	sigala	sigala	S	S	Case=gen|Number=sg	33	obl	H_lemma:vedama	_
+31	juurde	juurde	K	K	AdpType=post	30	case	H_lemma:sigala	_
+32	kartuleid	kartul	S	S	Case=part|Number=pl	33	obj	H_lemma:vedama	_
+33	vedama	vedama	V	V	Case=ill|VerbForm=sup|VerbType=mod|Voice=ps	29	xcomp	H_lemma:hakkama	_
+34	.	.	Z	Z	_	2	punct	H_lemma:tõstma	_
+
+# sent_id = 7078422
+# text = Albert sõidutab mind ikka punkrisse ja tagasi .
+1	Albert	Albert	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:sõidutama	_
+2	sõidutab	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	0	root	_	_
+3	mind	mina	P	P	Case=part|Number=sg	2	obj	H_lemma:sõidutama	_
+4	ikka	ikka	D	D	_	2	advmod	H_lemma:sõidutama	_
+5	punkrisse	punker	S	S	Case=ill|Number=sg	2	obl	H_lemma:sõidutama	_
+6	ja	ja	J	J	_	7	cc	H_lemma:tagasi	_
+7	tagasi	tagasi	D	D	_	5	conj	H_lemma:punker	_
+8	.	.	Z	Z	_	2	punct	H_lemma:sõidutama	_
+
+# sent_id = 7079285
+# text = Üks võõras naine sõidutas teda kahe rattaga kärus .
+1	Üks	üks	N	N	Case=nom|Number=sg	3	det	H_lemma:naine	_
+2	võõras	võõras	A	A	Case=nom|Number=sg	3	amod	H_lemma:naine	_
+3	naine	naine	S	S	Case=nom|Number=sg	4	nsubj	H_lemma:sõidutama	_
+4	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+5	teda	tema	P	P	Case=part|Number=sg	4	obj	H_lemma:sõidutama	_
+6	kahe	kaks	N	N	Case=gen|Number=sg	7	nummod	H_lemma:ratas	_
+7	rattaga	ratas	S	S	Case=kom|Number=sg	4	obl	H_lemma:sõidutama	_
+8	kärus	käru	S	S	Case=in|Number=sg	4	obl	H_lemma:sõidutama	_
+9	.	.	Z	Z	_	4	punct	H_lemma:sõidutama	_
+
+# sent_id = 7080354
+# text = Järgmisel hommikul sõidutas põdrasaan meid suuskadega kahetiivalise lennuki juurde , ronisime treppredelit pidi kabiini , mootor hakkas algul popsuma , siis põrisema , lennuk kihutas natuke maad mööda lund ja tõusis õhku .
+1	Järgmisel	järgmine	A	A	Case=ad|Number=sg	2	amod	H_lemma:hommik	_
+2	hommikul	hommik	S	S	Case=ad|Number=sg	3	obl	H_lemma:sõidutama	_
+3	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	0	root	_	_
+4	põdrasaan	põdrasaan	S	S	Case=nom|Number=sg	3	nsubj	H_lemma:sõidutama	_
+5	meid	mina	P	P	Case=part|Number=pl	3	obj	H_lemma:sõidutama	_
+6	suuskadega	suusk	S	S	Case=kom|Number=pl	3	obl	H_lemma:sõidutama	_
+7	kahetiivalise	kahetiivaline	A	A	Case=gen|Number=sg	8	amod	H_lemma:lennuk	_
+8	lennuki	lennuk	S	S	Case=gen|Number=sg	3	obl	H_lemma:sõidutama	_
+9	juurde	juurde	K	K	AdpType=post	8	case	H_lemma:lennuk	_
+10	,	,	Z	Z	_	11	punct	H_lemma:ronima	_
+11	ronisime	ronima	V	V	Mood=indic|Number=pl|Person=ps1|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	3	conj	H_lemma:sõidutama	_
+12	treppredelit	treppredel	S	S	Case=part|Number=sg	11	obl	H_lemma:ronima	_
+13	pidi	pidama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	11	advmod	H_lemma:ronima	_
+14	kabiini	kabiin	S	S	Case=part|Number=sg	11	obl	H_lemma:ronima	_
+15	,	,	Z	Z	_	17	punct	H_lemma:hakkama	_
+16	mootor	mootor	S	S	Case=nom|Number=sg	17	nsubj	H_lemma:hakkama	_
+17	hakkas	hakkama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	3	conj	H_lemma:sõidutama	_
+18	algul	algul	D	D	_	17	advmod	H_lemma:hakkama	_
+19	popsuma	popsuma	V	V	Case=ill|VerbForm=sup|VerbType=mod|Voice=ps	17	xcomp	H_lemma:hakkama	_
+20	,	,	Z	Z	_	22	punct	H_lemma:põrisema	_
+21	siis	siis	D	D	_	22	advmod	H_lemma:põrisema	_
+22	põrisema	põrisema	V	V	Case=ill|VerbForm=sup|VerbType=mod|Voice=ps	3	conj	H_lemma:sõidutama	_
+23	,	,	Z	Z	_	25	punct	H_lemma:kihutama	_
+24	lennuk	lennuk	S	S	Case=nom|Number=sg	25	nsubj	H_lemma:kihutama	_
+25	kihutas	kihutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	3	conj	H_lemma:sõidutama	_
+26	natuke	natuke	D	D	_	27	advmod	H_lemma:maa	_
+27	maad	maa	S	S	Case=part|Number=sg	25	obl	H_lemma:kihutama	_
+28	mööda	mööda	K	K	AdpType=post	29	case	H_lemma:lumi	_
+29	lund	lumi	S	S	Case=part|Number=sg	25	obl	H_lemma:kihutama	_
+30	ja	ja	J	J	_	31	cc	H_lemma:tõusma	_
+31	tõusis	tõusma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	3	conj	H_lemma:sõidutama	_
+32	õhku	õhk	S	S	Case=part|Number=sg	31	obl	H_lemma:tõusma	_
+33	.	.	Z	Z	_	3	punct	H_lemma:sõidutama	_
+
+# sent_id = 7083108
+# text = Koba abiellus salaja Lazar Kaganovitshi tütre Maiaga , " rääkis Pavka autos , kui Gorono meid koju sõidutas .
+1	Koba	koba	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:abielluma	_
+2	abiellus	abielluma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+3	salaja	salaja	D	D	_	2	advmod	H_lemma:abielluma	_
+4	Lazar	Lazar	S	S	Case=nom|Number=sg	6	nmod	H_lemma:tütar	_
+5	Kaganovitshi	Kaganovitsh	S	S	Case=gen|Number=sg	4	flat	H_lemma:Lazar	_
+6	tütre	tütar	S	S	Case=gen|Number=sg	2	obl	H_lemma:abielluma	_
+7	Maiaga	maia	S	S	Case=kom|Number=sg	6	nmod	H_lemma:tütar	_
+8	,	,	Z	Z	_	2	punct	H_lemma:abielluma	_
+9	"	"	Z	Z	_	2	punct	H_lemma:abielluma	_
+10	rääkis	rääkima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	2	parataxis	H_lemma:abielluma	_
+11	Pavka	Pavka	S	S	Case=nom|Number=sg	10	nsubj	H_lemma:rääkima	_
+12	autos	auto	S	S	Case=in|Number=sg	10	obl	H_lemma:rääkima	_
+13	,	,	Z	Z	_	18	punct	H_lemma:sõidutama	_
+14	kui	kui	D	D	_	18	mark	H_lemma:sõidutama	_
+15	Gorono	Gorono	S	S	Case=nom|Number=sg	18	nsubj	H_lemma:sõidutama	_
+16	meid	mina	P	P	Case=part|Number=pl	18	obj	H_lemma:sõidutama	_
+17	koju	kodu	S	S	Case=adit|Number=sg	18	obl	H_lemma:sõidutama	_
+18	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	10	advcl	H_lemma:rääkima	_
+19	.	.	Z	Z	_	2	punct	H_lemma:abielluma	_
+
+# sent_id = 7083625
+# text = Meie " Buick " sõidutab kogu aeg üha uusi välismaalasi , kes elavad allkorrusel meie sviidis .
+1	Meie	mina	P	P	Case=gen|Number=pl	3	nmod	H_lemma:Buick	_
+2	"	"	Z	Z	_	3	punct	H_lemma:Buick	_
+3	Buick	Buick	S	S	Case=nom|Number=sg	5	nsubj	H_lemma:sõidutama	_
+4	"	"	Z	Z	_	3	punct	H_lemma:Buick	_
+5	sõidutab	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	0	root	_	_
+6	kogu	kogu	A	A	_	7	det	H_lemma:aeg	_
+7	aeg	aeg	S	S	Case=nom|Number=sg	5	obl	H_lemma:sõidutama	_
+8	üha	üha	D	D	_	9	advmod	H_lemma:uus	_
+9	uusi	uus	A	A	Case=part|Number=pl	10	amod	H_lemma:välismaalane	_
+10	välismaalasi	välismaalane	S	S	Case=part|Number=pl	5	obj	H_lemma:sõidutama	_
+11	,	,	Z	Z	_	13	punct	H_lemma:elama	_
+12	kes	kes	P	P	Case=nom|Number=sg	13	nsubj	H_lemma:elama	_
+13	elavad	elama	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	10	acl:relcl	H_lemma:välismaalane	_
+14	allkorrusel	allkorrus	S	S	Case=ad|Number=sg	13	obl	H_lemma:elama	_
+15	meie	mina	P	P	Case=gen|Number=pl	16	nmod	H_lemma:sviit	_
+16	sviidis	sviit	S	S	Case=in|Number=sg	13	obl	H_lemma:elama	_
+17	.	.	Z	Z	_	5	punct	H_lemma:sõidutama	_
+
+# sent_id = 7083674
+# text = Vestibüülis ootas veel üks mees , tundus , et tähtsam kui see , kes mind sõidutas .
+1	Vestibüülis	vestibüül	S	S	Case=in|Number=sg	2	obl	H_lemma:ootama	_
+2	ootas	ootama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+3	veel	veel	D	D	_	4	advmod	H_lemma:üks	_
+4	üks	üks	P	P	Case=nom|Number=sg	5	nummod	H_lemma:mees	_
+5	mees	mees	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:ootama	_
+6	,	,	Z	Z	_	7	punct	H_lemma:tunduma	_
+7	tundus	tunduma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	2	conj	H_lemma:ootama	_
+8	,	,	Z	Z	_	10	punct	H_lemma:tähtsam	_
+9	et	et	J	J	_	10	mark	H_lemma:tähtsam	_
+10	tähtsam	tähtsam	A	A	Case=nom|Number=sg	7	csubj	H_lemma:tunduma	_
+11	kui	kui	J	J	_	12	mark	H_lemma:see	_
+12	see	see	P	P	Case=nom|Number=sg	10	advcl	H_lemma:tähtsam	_
+13	,	,	Z	Z	_	16	punct	H_lemma:sõidutama	_
+14	kes	kes	P	P	Case=nom|Number=sg	16	nsubj	H_lemma:sõidutama	_
+15	mind	mina	P	P	Case=part|Number=sg	16	obj	H_lemma:sõidutama	_
+16	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	12	acl:relcl	H_lemma:see	_
+17	.	.	Z	Z	_	2	punct	H_lemma:ootama	_
+
+# sent_id = 7083784
+# text = " Huvitav , et Gerassimov oma nägu ei näidanud , " sõnas Pavka , kui Gorono meid koju sõidutas .
+1	"	"	Z	Z	_	2	punct	H_lemma:huvitav	_
+2	Huvitav	huvitav	A	A	Case=nom|Number=sg	0	root	_	_
+3	,	,	Z	Z	_	9	punct	H_lemma:näitama	_
+4	et	et	J	J	_	9	mark	H_lemma:näitama	_
+5	Gerassimov	Gerassimov	S	S	Case=nom|Number=sg	9	nsubj	H_lemma:näitama	_
+6	oma	oma	P	P	Case=gen|Number=sg	7	nmod	H_lemma:nägu	_
+7	nägu	nägu	S	S	Case=part|Number=sg	9	obj	H_lemma:näitama	_
+8	ei	ei	V	V	Polarity=neg|VerbType=aux	9	aux	H_lemma:näitama	_
+9	näidanud	näitama	V	V	Mood=indic|Polarity=neg|Tense=impf|VerbType=mod|Voice=ps	2	csubj:cop	H_lemma:huvitav	_
+10	,	,	Z	Z	_	2	punct	H_lemma:huvitav	_
+11	"	"	Z	Z	_	2	punct	H_lemma:huvitav	_
+12	sõnas	sõnama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	2	parataxis	H_lemma:huvitav	_
+13	Pavka	Pavka	S	S	Case=nom|Number=sg	12	nsubj	H_lemma:sõnama	_
+14	,	,	Z	Z	_	19	punct	H_lemma:sõidutama	_
+15	kui	kui	J	J	_	19	mark	H_lemma:sõidutama	_
+16	Gorono	Gorono	S	S	Case=nom|Number=sg	19	nsubj	H_lemma:sõidutama	_
+17	meid	mina	P	P	Case=part|Number=pl	19	obj	H_lemma:sõidutama	_
+18	koju	kodu	S	S	Case=adit|Number=sg	19	obl	H_lemma:sõidutama	_
+19	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	12	advcl	H_lemma:sõnama	_
+20	.	.	Z	Z	_	2	punct	H_lemma:huvitav	_
+
+# sent_id = 7097261
+# text = Greete pani mu taksosse ja sõidutas pimedasse parki , ning seal vedas ta mu ühele laiale lagendikule .
+1	Greete	Greete	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:panema	_
+2	pani	panema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	0	root	_	_
+3	mu	mina	P	P	Case=gen|Number=sg	4	nmod	H_lemma:takso	_
+4	taksosse	takso	S	S	Case=ill|Number=sg	2	obl	H_lemma:panema	_
+5	ja	ja	J	J	_	6	cc	H_lemma:sõidutama	_
+6	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	2	conj	H_lemma:panema	_
+7	pimedasse	pime	A	A	Case=ill|Number=sg	8	amod	H_lemma:park	_
+8	parki	park	S	S	Case=adit|Number=sg	6	obj	H_lemma:sõidutama	_
+9	,	,	Z	Z	_	12	punct	H_lemma:vedama	_
+10	ning	ning	J	J	_	12	cc	H_lemma:vedama	_
+11	seal	seal	D	D	_	12	advmod	H_lemma:vedama	_
+12	vedas	vedama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	2	conj	H_lemma:panema	_
+13	ta	tema	P	P	Case=nom|Number=sg	12	nsubj	H_lemma:vedama	_
+14	mu	mina	P	P	Case=gen|Number=sg	17	nmod	H_lemma:lagendik	_
+15	ühele	üks	P	P	Case=all|Number=sg	17	det	H_lemma:lagendik	_
+16	laiale	lai	A	A	Case=all|Number=sg	17	amod	H_lemma:lagendik	_
+17	lagendikule	lagendik	S	S	Case=all|Number=sg	12	obl	H_lemma:vedama	_
+18	.	.	Z	Z	_	2	punct	H_lemma:panema	_
+
+# sent_id = 7097413
+# text = Aga sealsamas võis Hindrek nii hea olla , et rakendas hobuse ette , võttis Therese sülle ja viis vankrisse heinte peale ning sõidutas alevisse juukselokkija juurde .
+1	Aga	aga	J	J	_	6	cc	H_lemma:hea	_
+2	sealsamas	sealsamas	D	D	_	6	advmod	H_lemma:hea	_
+3	võis	võima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	6	aux	H_lemma:hea	_
+4	Hindrek	Hindrek	S	S	Case=nom|Number=sg	6	nsubj:cop	H_lemma:hea	_
+5	nii	nii	D	D	_	6	advmod	H_lemma:hea	_
+6	hea	hea	A	A	Case=nom|Number=sg	0	root	_	_
+7	olla	olema	V	V	VerbForm=inf|VerbType=mod	6	cop	H_lemma:hea	_
+8	,	,	Z	Z	_	10	punct	H_lemma:rakendama	_
+9	et	et	J	J	_	10	mark	H_lemma:rakendama	_
+10	rakendas	rakendama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	6	advcl	H_lemma:hea	_
+11	hobuse	hobune	S	S	Case=gen|Number=sg	10	obj	H_lemma:rakendama	_
+12	ette	ette	K	K	AdpType=post	10	compound:prt	H_lemma:rakendama	_
+13	,	,	Z	Z	_	14	punct	H_lemma:võtma	_
+14	võttis	võtma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	10	conj	H_lemma:rakendama	_
+15	Therese	Theres	S	S	Case=gen|Number=sg	14	obj	H_lemma:võtma	_
+16	sülle	süli	S	S	Case=adit|Number=sg	14	obl	H_lemma:võtma	_
+17	ja	ja	J	J	_	18	cc	H_lemma:viima	_
+18	viis	viima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	10	conj	H_lemma:rakendama	_
+19	vankrisse	vanker	S	S	Case=ill|Number=sg	18	obl	H_lemma:viima	_
+20	heinte	hein	S	S	Case=gen|Number=pl	18	obj	H_lemma:viima	_
+21	peale	peale	K	K	AdpType=post	20	case	H_lemma:hein	_
+22	ning	ning	J	J	_	23	cc	H_lemma:sõidutama	_
+23	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	10	conj	H_lemma:rakendama	_
+24	alevisse	alev	S	S	Case=ill|Number=sg	23	obl	H_lemma:sõidutama	_
+25	juukselokkija	juukselokkija	S	S	Case=gen|Number=sg	23	obj	H_lemma:sõidutama	_
+26	juurde	juurde	K	K	AdpType=post	25	case	H_lemma:juukselokkija	_
+27	.	.	Z	Z	_	6	punct	H_lemma:hea	_
+
+# sent_id = 7097630
+# text = Hindrek pani ta jalgratta pakiraamile istuma ja käskis sadulast kinni hoida ning sõidutas ta küla kiigeplatsile , kus noored palli mängisid ja kiikusid .
+1	Hindrek	Hindrek	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:panema	_
+2	pani	panema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	0	root	_	_
+3	ta	tema	P	P	Case=gen|Number=sg	2	obj	H_lemma:panema	_
+4	jalgratta	jalgratas	S	S	Case=gen|Number=sg	5	nmod	H_lemma:pakiraam	_
+5	pakiraamile	pakiraam	S	S	Case=all|Number=sg	2	obl	H_lemma:panema	_
+6	istuma	istuma	V	V	Case=ill|VerbForm=sup|VerbType=main|Voice=ps	2	xcomp	H_lemma:panema	_
+7	ja	ja	J	J	_	8	cc	H_lemma:käskima	_
+8	käskis	käskima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	2	conj	H_lemma:panema	_
+9	sadulast	sadul	S	S	Case=el|Number=sg	11	obl	H_lemma:hoidma	_
+10	kinni	kinni	D	D	_	11	compound:prt	H_lemma:hoidma	_
+11	hoida	hoidma	V	V	VerbForm=inf|VerbType=main	8	xcomp	H_lemma:käskima	_
+12	ning	ning	J	J	_	13	cc	H_lemma:sõidutama	_
+13	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	2	conj	H_lemma:panema	_
+14	ta	tema	P	P	Case=gen|Number=sg	13	obj	H_lemma:sõidutama	_
+15	küla	küla	S	S	Case=gen|Number=sg	13	obj	H_lemma:sõidutama	_
+16	kiigeplatsile	kiigeplats	S	S	Case=all|Number=sg	13	obl	H_lemma:sõidutama	_
+17	,	,	Z	Z	_	21	punct	H_lemma:mängima	_
+18	kus	kus	D	D	_	21	mark	H_lemma:mängima	_
+19	noored	noor	S	S	Case=nom|Number=pl	21	nsubj	H_lemma:mängima	_
+20	palli	pall	S	S	Case=gen|Number=sg	21	obj	H_lemma:mängima	_
+21	mängisid	mängima	V	V	Mood=indic|Number=sg|Person=ps2|Polarity=af|Tense=impf|VerbType=main|Voice=ps	16	acl	H_lemma:kiigeplats	_
+22	ja	ja	J	J	_	23	cc	H_lemma:kiikuma	_
+23	kiikusid	kiikuma	V	V	Mood=indic|Number=sg|Person=ps2|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	21	conj	H_lemma:mängima	_
+24	.	.	Z	Z	_	2	punct	H_lemma:panema	_
+
+# sent_id = 7337365
+# text = Südaööl sõidutab autojuht mind koju .
+1	Südaööl	südaöö	S	S	Case=ad|Number=sg	2	obl	H_lemma:sõidutama	_
+2	sõidutab	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	0	root	_	_
+3	autojuht	autojuht	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:sõidutama	_
+4	mind	mina	P	P	Case=part|Number=sg	2	obj	H_lemma:sõidutama	_
+5	koju	kodu	S	S	Case=adit|Number=sg	2	obl	H_lemma:sõidutama	_
+6	.	.	Z	Z	_	2	punct	H_lemma:sõidutama	_
+
+# sent_id = 7340993
+# text = Niisiis üüriti Otepäält koos sõidukiga Bussi Juss , kes sõidutas pruutpaari kirikumõisa , kus 22. juuni õhtupoolikul toimus tagasihoidlik laulatus ; vigase peigmehe tõttu pruutpaar istus .
+1	Niisiis	niisiis	D	D	_	2	advmod	H_lemma:üürima	_
+2	üüriti	üürima	V	V	Mood=indic|Polarity=af|Tense=impf|VerbType=main|Voice=imps	0	root	_	_
+3	Otepäält	Otepää	S	S	Case=abl|Number=sg	2	obl	H_lemma:üürima	_
+4	koos	koos	K	K	AdpType=post	5	case	H_lemma:sõiduk	_
+5	sõidukiga	sõiduk	S	S	Case=kom|Number=sg	2	obl	H_lemma:üürima	_
+6	Bussi	buss	S	S	Case=gen|Number=sg	7	nmod	H_lemma:juss	_
+7	Juss	juss	S	S	Case=nom|Number=sg	2	obj	H_lemma:üürima	_
+8	,	,	Z	Z	_	10	punct	H_lemma:sõidutama	_
+9	kes	kes	P	P	Case=nom|Number=sg	10	nsubj	H_lemma:sõidutama	_
+10	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	7	acl:relcl	H_lemma:juss	_
+11	pruutpaari	pruutpaar	S	S	Case=gen|Number=sg	10	obj	H_lemma:sõidutama	_
+12	kirikumõisa	kirikumõis	S	S	Case=gen|Number=sg	10	obj	H_lemma:sõidutama	_
+13	,	,	Z	Z	_	18	punct	H_lemma:toimuma	_
+14	kus	kus	D	D	_	18	mark	H_lemma:toimuma	_
+15	22.	22.	N	N	_	16	amod	H_lemma:juuni	_
+16	juuni	juuni	S	S	Case=gen|Number=sg	17	nmod	H_lemma:õhtupoolik	_
+17	õhtupoolikul	õhtupoolik	S	S	Case=ad|Number=sg	18	obl	H_lemma:toimuma	_
+18	toimus	toimuma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	10	advcl	H_lemma:sõidutama	_
+19	tagasihoidlik	tagasihoidlik	A	A	Case=nom|Number=sg	20	amod	H_lemma:laulatus	_
+20	laulatus	laulatus	S	S	Case=nom|Number=sg	18	nsubj	H_lemma:toimuma	_
+21	;	;	Z	Z	_	26	punct	H_lemma:istuma	_
+22	vigase	vigane	A	A	Case=gen|Number=sg	23	amod	H_lemma:peigmees	_
+23	peigmehe	peigmees	S	S	Case=gen|Number=sg	26	obl	H_lemma:istuma	_
+24	tõttu	tõttu	K	K	AdpType=post	23	case	H_lemma:peigmees	_
+25	pruutpaar	pruutpaar	S	S	Case=nom|Number=sg	26	nsubj	H_lemma:istuma	_
+26	istus	istuma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	18	parataxis	H_lemma:toimuma	_
+27	.	.	Z	Z	_	2	punct	H_lemma:üürima	_
+
+# sent_id = 7347526
+# text = Varblane viskas ka oma luua ja labida kärule ja sõidutas tööriistad väsinult koju .
+1	Varblane	varblane	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:viskama	_
+2	viskas	viskama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	0	root	_	_
+3	ka	ka	D	D	_	2	advmod	H_lemma:viskama	_
+4	oma	oma	P	P	Case=gen|Number=sg	5	obj	H_lemma:looma	_
+5	luua	looma	V	V	VerbForm=inf|VerbType=aux	2	xcomp	H_lemma:viskama	_
+6	ja	ja	J	J	_	7	cc	H_lemma:labidas	_
+7	labida	labidas	S	S	Case=gen|Number=sg	5	conj	H_lemma:looma	_
+8	kärule	käru	S	S	Case=all|Number=sg	7	obl	H_lemma:labidas	_
+9	ja	ja	J	J	_	10	cc	H_lemma:sõidutama	_
+10	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	2	conj	H_lemma:viskama	_
+11	tööriistad	tööriist	S	S	Case=nom|Number=pl	10	obj	H_lemma:sõidutama	_
+12	väsinult	väsinult	D	D	_	10	advmod	H_lemma:sõidutama	_
+13	koju	kodu	S	S	Case=adit|Number=sg	10	obl	H_lemma:sõidutama	_
+14	.	.	Z	Z	_	2	punct	H_lemma:viskama	_
+
+# sent_id = 7384666
+# text = Mis mul muud üle jäi kui talle kolmekas anda , seda oli ennegi juhtunud , et taksojuhid olid kliendi kainerisse sõidutanud ja pärast võmmidega tulud pooleks teinud .
+1	Mis	mis	P	P	Case=nom|Number=pl	5	nsubj	H_lemma:jääma	_
+2	mul	mina	P	P	Case=ad|Number=sg	5	obl	H_lemma:jääma	_
+3	muud	muu	P	P	Case=part|Number=sg	5	nsubj	H_lemma:jääma	_
+4	üle	üle	D	D	_	5	compound:prt	H_lemma:jääma	_
+5	jäi	jääma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	14	advcl	H_lemma:juhtuma	_
+6	kui	kui	D	D	_	9	mark	H_lemma:andma	_
+7	talle	tema	P	P	Case=all|Number=sg	9	obl	H_lemma:andma	_
+8	kolmekas	kolmekas	S	S	Case=in|Number=sg	9	obl	H_lemma:andma	_
+9	anda	andma	V	V	VerbForm=inf|VerbType=aux	5	advcl	H_lemma:jääma	_
+10	,	,	Z	Z	_	14	punct	H_lemma:juhtuma	_
+11	seda	see	P	P	Case=part|Number=sg	14	nsubj	H_lemma:juhtuma	_
+12	oli	olema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	14	aux	H_lemma:juhtuma	_
+13	ennegi	ennegi	D	D	_	14	advmod	H_lemma:juhtuma	_
+14	juhtunud	juhtuma	V	V	Tense=past|VerbForm=partic|VerbType=main|Voice=ps	0	root	_	_
+15	,	,	Z	Z	_	21	punct	H_lemma:sõidutama	_
+16	et	et	J	J	_	21	mark	H_lemma:sõidutama	_
+17	taksojuhid	taksojuht	S	S	Case=nom|Number=pl	21	nsubj	H_lemma:sõidutama	_
+18	olid	olema	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	21	aux	H_lemma:sõidutama	_
+19	kliendi	klient	S	S	Case=gen|Number=sg	21	obj	H_lemma:sõidutama	_
+20	kainerisse	kainer	S	S	Case=ill|Number=sg	21	obl	H_lemma:sõidutama	_
+21	sõidutanud	sõidutama	V	V	Mood=indic|Polarity=neg|Tense=impf|VerbType=aux|Voice=ps	14	csubj	H_lemma:juhtuma	_
+22	ja	ja	J	J	_	27	cc	H_lemma:tegema	_
+23	pärast	pärast	K	K	AdpType=post	24	case	H_lemma:võmm	_
+24	võmmidega	võmm	S	S	Case=kom|Number=pl	27	obl	H_lemma:tegema	_
+25	tulud	tulu	S	S	Case=nom|Number=pl	27	obj	H_lemma:tegema	_
+26	pooleks	pooleks	D	D	_	27	compound:prt	H_lemma:tegema	_
+27	teinud	tegema	V	V	Tense=past|VerbForm=partic|VerbType=main|Voice=ps	21	conj	H_lemma:sõidutama	_
+28	.	.	Z	Z	_	14	punct	H_lemma:juhtuma	_
+
+# sent_id = 7407102
+# text = Rikas proua , kes S-i mööda laia maailma sõidutas .
+1	Rikas	rikas	A	A	Case=nom|Number=sg	2	amod	H_lemma:proua	_
+2	proua	proua	S	S	Case=nom|Number=sg	0	root	_	_
+3	,	,	Z	Z	_	9	punct	H_lemma:sõidutama	_
+4	kes	kes	P	P	Case=nom|Number=pl	9	nsubj	H_lemma:sõidutama	_
+5	S-i	S	Y	Y	Case=adit|Number=sg	9	obj	H_lemma:sõidutama	_
+6	mööda	mööda	K	K	AdpType=post	5	case	H_lemma:S	_
+7	laia	lai	A	A	Case=part|Number=sg	8	amod	H_lemma:maailm	_
+8	maailma	maailm	S	S	Case=part|Number=sg	9	obl	H_lemma:sõidutama	_
+9	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	2	acl:relcl	H_lemma:proua	_
+10	.	.	Z	Z	_	2	punct	H_lemma:proua	_
+
+# sent_id = 7493542
+# text = Tuba oli rahvast pungil täis , olime tulnud kuulama üht inimest , kelle UFOd une ajal Kuu peale sõidutasid ja jälle tagasi tõid , voodis lamavasse kehasse .
+1	Tuba	tuba	S	S	Case=nom|Number=sg	5	nsubj:cop	H_lemma:täis	_
+2	oli	olema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	5	cop	H_lemma:täis	_
+3	rahvast	rahvas	S	S	Case=part|Number=sg	5	obl	H_lemma:täis	_
+4	pungil	pungil	D	D	_	5	advmod	H_lemma:täis	_
+5	täis	täis	D	D	_	0	root	_	_
+6	,	,	Z	Z	_	8	punct	H_lemma:tulema	_
+7	olime	olema	V	V	Mood=indic|Number=pl|Person=ps1|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	8	aux	H_lemma:tulema	_
+8	tulnud	tulema	V	V	Tense=past|VerbForm=partic|VerbType=main|Voice=ps	5	conj	H_lemma:täis	_
+9	kuulama	kuulama	V	V	Case=ill|VerbForm=sup|VerbType=aux|Voice=ps	8	xcomp	H_lemma:tulema	_
+10	üht	üks	N	N	Case=part|Number=sg	11	det	H_lemma:inimene	_
+11	inimest	inimene	S	S	Case=part|Number=sg	9	obj	H_lemma:kuulama	_
+12	,	,	Z	Z	_	14	punct	H_lemma:UFO	_
+13	kelle	kes	P	P	Case=gen|Number=sg	19	obj	H_lemma:sõidutama	_
+14	UFOd	UFO	Y	Y	Case=part|Number=sg	19	obj	H_lemma:sõidutama	_
+15	une	uni	S	S	Case=gen|Number=sg	19	obl	H_lemma:sõidutama	_
+16	ajal	ajal	K	K	AdpType=post	15	case	H_lemma:uni	_
+17	Kuu	kuu	S	S	Case=gen|Number=sg	19	obl	H_lemma:sõidutama	_
+18	peale	peale	K	K	AdpType=post	17	case	H_lemma:kuu	_
+19	sõidutasid	sõidutama	V	V	Mood=indic|Number=sg|Person=ps2|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	11	acl:relcl	H_lemma:inimene	_
+20	ja	ja	J	J	_	23	cc	H_lemma:tooma	_
+21	jälle	jälle	D	D	_	23	advmod	H_lemma:tooma	_
+22	tagasi	tagasi	D	D	_	23	compound:prt	H_lemma:tooma	_
+23	tõid	tooma	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	19	conj	H_lemma:sõidutama	_
+24	,	,	Z	Z	_	27	punct	H_lemma:keha	_
+25	voodis	voodi	S	S	Case=in|Number=sg	26	obl	H_lemma:lamav	_
+26	lamavasse	lamav	A	A	Case=ill|Number=sg	27	acl	H_lemma:keha	_
+27	kehasse	keha	S	S	Case=ill|Number=sg	23	obl	H_lemma:tooma	_
+28	.	.	Z	Z	_	5	punct	H_lemma:täis	_
+
+# sent_id = 7518659
+# text = Vaal ja teised vaalalised on kummaline nähtus selle poolest , et kunagi väga kauges minevikus läksid vaala esivanemad maismaalt merre tagasi , nende karvastik kadus ning keha muutus voolujooneliseks , esijäsemetest said loivad , viletsast sabajupist aga tekkis võimas mõla , mille abil vaal end sõidutab .
+1	Vaal	vaal	S	S	Case=nom|Number=sg	7	nsubj:cop	H_lemma:nähtus	_
+2	ja	ja	J	J	_	4	cc	H_lemma:vaalaline	_
+3	teised	teine	N	N	Case=nom|Number=pl	4	det	H_lemma:vaalaline	_
+4	vaalalised	vaalaline	A	A	Case=nom|Number=pl	1	conj	H_lemma:vaal	_
+5	on	olema	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	7	cop	H_lemma:nähtus	_
+6	kummaline	kummaline	A	A	Case=nom|Number=sg	7	amod	H_lemma:nähtus	_
+7	nähtus	nähtus	S	S	Case=nom|Number=sg	0	root	_	_
+8	selle	see	P	P	Case=gen|Number=sg	7	nmod	H_lemma:nähtus	_
+9	poolest	poolest	K	K	AdpType=post	8	case	H_lemma:see	_
+10	,	,	Z	Z	_	16	punct	H_lemma:minema	_
+11	et	et	J	J	_	16	mark	H_lemma:minema	_
+12	kunagi	kunagi	D	D	_	16	advmod	H_lemma:minema	_
+13	väga	väga	D	D	_	14	advmod	H_lemma:kauge	_
+14	kauges	kauge	A	A	Case=in|Number=sg	15	amod	H_lemma:minevik	_
+15	minevikus	minevik	S	S	Case=in|Number=sg	16	obl	H_lemma:minema	_
+16	läksid	minema	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	8	acl	H_lemma:see	_
+17	vaala	vaal	S	S	Case=gen|Number=sg	18	nmod	H_lemma:esivanem	_
+18	esivanemad	esivanem	S	S	Case=nom|Number=pl	16	nsubj	H_lemma:minema	_
+19	maismaalt	maismaa	S	S	Case=abl|Number=sg	16	obl	H_lemma:minema	_
+20	merre	meri	S	S	Case=adit|Number=sg	16	obl	H_lemma:minema	_
+21	tagasi	tagasi	D	D	_	16	compound:prt	H_lemma:minema	_
+22	,	,	Z	Z	_	25	punct	H_lemma:kaduma	_
+23	nende	tema	P	P	Case=gen|Number=pl	24	nmod	H_lemma:karvastik	_
+24	karvastik	karvastik	S	S	Case=nom|Number=sg	25	nsubj	H_lemma:kaduma	_
+25	kadus	kaduma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	16	conj	H_lemma:minema	_
+26	ning	ning	J	J	_	28	cc	H_lemma:muutuma	_
+27	keha	keha	S	S	Case=nom|Number=sg	28	nsubj	H_lemma:muutuma	_
+28	muutus	muutuma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	16	conj	H_lemma:minema	_
+29	voolujooneliseks	voolujooneline	A	A	Case=tr|Number=sg	28	xcomp	H_lemma:muutuma	_
+30	,	,	Z	Z	_	32	punct	H_lemma:saama	_
+31	esijäsemetest	esijäse	S	S	Case=el|Number=pl	32	obl	H_lemma:saama	_
+32	said	saama	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	16	conj	H_lemma:minema	_
+33	loivad	loib	S	S	Case=nom|Number=pl	32	nsubj	H_lemma:saama	_
+34	,	,	Z	Z	_	38	punct	H_lemma:tekkima	_
+35	viletsast	vilets	A	A	Case=el|Number=sg	36	amod	H_lemma:sabajupp	_
+36	sabajupist	sabajupp	S	S	Case=el|Number=sg	38	obl	H_lemma:tekkima	_
+37	aga	aga	J	J	_	38	advmod	H_lemma:tekkima	_
+38	tekkis	tekkima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	16	conj	H_lemma:minema	_
+39	võimas	võimas	A	A	Case=nom|Number=sg	40	amod	H_lemma:mõla	_
+40	mõla	mõla	S	S	Case=nom|Number=sg	38	nsubj	H_lemma:tekkima	_
+41	,	,	Z	Z	_	46	punct	H_lemma:sõidutama	_
+42	mille	mis	P	P	Case=gen|Number=pl	46	obl	H_lemma:sõidutama	_
+43	abil	abil	K	K	AdpType=post	42	case	H_lemma:mis	_
+44	vaal	vaal	S	S	Case=nom|Number=sg	46	nsubj	H_lemma:sõidutama	_
+45	end	ise	P	P	Case=part|Number=sg	46	obj	H_lemma:sõidutama	_
+46	sõidutab	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	40	acl:relcl	H_lemma:mõla	_
+47	.	.	Z	Z	_	7	punct	H_lemma:nähtus	_
+
+# sent_id = 7521380
+# text = Mehed sõidutasid mu lennuväljale , võimas Boeing 747 - 500 rebis end õhku 9.9.99 .
+1	Mehed	mees	S	S	Case=nom|Number=pl	2	nsubj	H_lemma:sõidutama	_
+2	sõidutasid	sõidutama	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+3	mu	mina	P	P	Case=gen|Number=sg	4	nmod	H_lemma:lennuväli	_
+4	lennuväljale	lennuväli	S	S	Case=all|Number=sg	2	obl	H_lemma:sõidutama	_
+5	,	,	Z	Z	_	11	punct	H_lemma:rebima	_
+6	võimas	võimas	A	A	Case=nom|Number=sg	7	amod	H_lemma:Boeing	_
+7	Boeing	Boeing	S	S	Case=nom|Number=sg	11	nsubj	H_lemma:rebima	_
+8	747	747	N	N	_	7	flat	H_lemma:Boeing	_
+9	-	-	Z	Z	_	10	punct	H_lemma:500	_
+10	500	500	N	N	_	7	flat	H_lemma:Boeing	_
+11	rebis	rebima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	2	conj	H_lemma:sõidutama	_
+12	end	end	Y	Y	_	11	obj	H_lemma:rebima	_
+13	õhku	õhk	S	S	Case=part|Number=sg	11	obl	H_lemma:rebima	_
+14	9.9.99	9999	N	N	_	13	nummod	H_lemma:õhk	_
+15	.	.	Z	Z	_	2	punct	H_lemma:sõidutama	_
+
+# sent_id = 7560133
+# text = Ja kui üks vene koll meid tagasi linna sõidutas , käskis Bert iga veerand tunni tagant auto kinni pidada , et lasta kauni sügismetsa taustal maha sirts okset .
+1	Ja	ja	J	J	_	9	cc	H_lemma:sõidutama	_
+2	kui	kui	D	D	_	9	mark	H_lemma:sõidutama	_
+3	üks	üks	N	N	Case=nom|Number=sg	5	det	H_lemma:koll	_
+4	vene	vene	G	G	_	5	amod	H_lemma:koll	_
+5	koll	koll	S	S	Case=nom|Number=sg	9	nsubj	H_lemma:sõidutama	_
+6	meid	mina	P	P	Case=part|Number=pl	9	obj	H_lemma:sõidutama	_
+7	tagasi	tagasi	D	D	_	9	compound:prt	H_lemma:sõidutama	_
+8	linna	linn	S	S	Case=adit|Number=sg	9	obl	H_lemma:sõidutama	_
+9	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	11	advcl	H_lemma:käskima	_
+10	,	,	Z	Z	_	9	punct	H_lemma:sõidutama	_
+11	käskis	käskima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+12	Bert	Bert	S	S	Case=nom|Number=sg	11	nsubj	H_lemma:käskima	_
+13	iga	iga	P	P	Case=gen|Number=sg	14	det	H_lemma:veerand	_
+14	veerand	veerand	N	N	Case=nom|Number=sg	15	nummod	H_lemma:tund	_
+15	tunni	tund	S	S	Case=gen|Number=sg	19	obl	H_lemma:pidama	_
+16	tagant	tagant	K	K	AdpType=post	15	case	H_lemma:tund	_
+17	auto	auto	S	S	Case=nom|Number=sg	19	obj	H_lemma:pidama	_
+18	kinni	kinni	D	D	_	19	compound:prt	H_lemma:pidama	_
+19	pidada	pidama	V	V	VerbForm=inf|VerbType=aux	11	xcomp	H_lemma:käskima	_
+20	,	,	Z	Z	_	22	punct	H_lemma:laskma	_
+21	et	et	J	J	_	22	mark	H_lemma:laskma	_
+22	lasta	laskma	V	V	VerbForm=inf|VerbType=mod	11	advcl	H_lemma:käskima	_
+23	kauni	kaunis	A	A	Case=gen|Number=sg	24	amod	H_lemma:sügismets	_
+24	sügismetsa	sügismets	S	S	Case=gen|Number=sg	25	nmod	H_lemma:taust	_
+25	taustal	taust	S	S	Case=ad|Number=sg	22	obl	H_lemma:laskma	_
+26	maha	maha	D	D	_	22	compound:prt	H_lemma:laskma	_
+27	sirts	sirts	S	S	Case=nom|Number=sg	28	nmod	H_lemma:okse	_
+28	okset	okse	S	S	Case=part|Number=sg	22	obj	H_lemma:laskma	_
+29	.	.	Z	Z	_	11	punct	H_lemma:käskima	_
+
+# sent_id = 7576876
+# text = Viis autosse ja sõidutas linna mööda ringi .
+1	Viis	viis	N	N	Case=nom|Number=sg	0	root	_	_
+2	autosse	auto	S	S	Case=ill|Number=sg	1	obl	H_lemma:viis	_
+3	ja	ja	J	J	_	4	cc	H_lemma:sõidutama	_
+4	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	1	conj	H_lemma:viis	_
+5	linna	linn	S	S	Case=part|Number=sg	4	obj	H_lemma:sõidutama	_
+6	mööda	mööda	K	K	AdpType=post	5	case	H_lemma:linn	_
+7	ringi	ringi	D	D	_	4	compound:prt	H_lemma:sõidutama	_
+8	.	.	Z	Z	_	1	punct	H_lemma:viis	_
+
+# sent_id = 7687239
+# text = Näib , et Orenburgi mehed eesotsas firma presidendi Rem Hramoviga , keda Dezinov liisitud lennukiga sõidutas , tahtsid kasutada samalaadset soomusetegemise skeemi , mida Lukoili omad rakendasid aastal 1993 : välismaale luuakse vaikselt oma terminal , see osutab Onakole ülikallist teenust ning teenitud kasumit kasutatakse Onako erastamisel .
+1	Näib	näima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	0	root	_	_
+2	,	,	Z	Z	_	18	punct	H_lemma:tahtma	_
+3	et	et	J	J	_	18	mark	H_lemma:tahtma	_
+4	Orenburgi	Orenburg	S	S	Case=gen|Number=sg	5	nmod	H_lemma:mees	_
+5	mehed	mees	S	S	Case=nom|Number=pl	18	nsubj	H_lemma:tahtma	_
+6	eesotsas	eesots	S	S	Case=in|Number=sg	5	nmod	H_lemma:mees	_
+7	firma	firma	S	S	Case=gen|Number=sg	8	nmod	H_lemma:president	_
+8	presidendi	president	S	S	Case=gen|Number=sg	6	nmod	H_lemma:eesots	_
+9	Rem	Rem	S	S	Case=nom|Number=sg	8	appos	H_lemma:president	_
+10	Hramoviga	Hramoviga	S	S	Case=nom|Number=sg	9	flat	H_lemma:Rem	_
+11	,	,	Z	Z	_	16	punct	H_lemma:sõidutama	_
+12	keda	kes	P	P	Case=part|Number=pl	16	obj	H_lemma:sõidutama	_
+13	Dezinov	Dezinov	S	S	Case=nom|Number=sg	16	nsubj	H_lemma:sõidutama	_
+14	liisitud	liisitud	A	A	_	15	acl	H_lemma:lennuk	_
+15	lennukiga	lennuk	S	S	Case=kom|Number=sg	16	obl	H_lemma:sõidutama	_
+16	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	9	acl:relcl	H_lemma:Rem	_
+17	,	,	Z	Z	_	16	punct	H_lemma:sõidutama	_
+18	tahtsid	tahtma	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	1	csubj	H_lemma:näima	_
+19	kasutada	kasutama	V	V	VerbForm=inf|VerbType=mod	18	xcomp	H_lemma:tahtma	_
+20	samalaadset	samalaadne	A	A	Case=part|Number=sg	21	amod	H_lemma:soomusetegemine	_
+21	soomusetegemise	soomusetegemine	S	S	Case=gen|Number=sg	22	nmod	H_lemma:skeem	_
+22	skeemi	skeem	S	S	Case=gen|Number=sg	19	obj	H_lemma:kasutama	_
+23	,	,	Z	Z	_	27	punct	H_lemma:rakendama	_
+24	mida	mis	P	P	Case=part|Number=sg	27	obj	H_lemma:rakendama	_
+25	Lukoili	Lukoil	S	S	Case=gen|Number=sg	26	nmod	H_lemma:oma	_
+26	omad	oma	S	S	Case=nom|Number=pl	27	nsubj	H_lemma:rakendama	_
+27	rakendasid	rakendama	V	V	Mood=indic|Number=sg|Person=ps2|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	22	acl:relcl	H_lemma:skeem	_
+28	aastal	aasta	S	S	Case=ad|Number=sg	27	obl	H_lemma:rakendama	_
+29	1993	1993	N	N	_	28	nummod	H_lemma:aasta	_
+30	:	:	Z	Z	_	32	punct	H_lemma:looma	_
+31	välismaale	välismaa	S	S	Case=all|Number=sg	32	obl	H_lemma:looma	_
+32	luuakse	looma	V	V	Mood=indic|Polarity=af|Tense=pres|VerbType=mod|Voice=imps	27	parataxis	H_lemma:rakendama	_
+33	vaikselt	vaikselt	D	D	_	32	advmod	H_lemma:looma	_
+34	oma	oma	P	P	Case=gen|Number=sg	35	nmod	H_lemma:terminal	_
+35	terminal	terminal	S	S	Case=nom|Number=sg	32	obj	H_lemma:looma	_
+36	,	,	Z	Z	_	38	punct	H_lemma:osutama	_
+37	see	see	P	P	Case=nom|Number=sg	38	nsubj	H_lemma:osutama	_
+38	osutab	osutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	32	conj	H_lemma:looma	_
+39	Onakole	Onakole	S	S	Case=gen|Number=sg	41	nmod	H_lemma:teenus	_
+40	ülikallist	ülikallis	A	A	Case=part|Number=sg	41	amod	H_lemma:teenus	_
+41	teenust	teenus	S	S	Case=part|Number=sg	38	obj	H_lemma:osutama	_
+42	ning	ning	J	J	_	45	cc	H_lemma:kasutama	_
+43	teenitud	teenima	V	V	Tense=past|VerbForm=partic|VerbType=mod|Voice=imps	44	acl	H_lemma:kasum	_
+44	kasumit	kasum	S	S	Case=part|Number=sg	45	obj	H_lemma:kasutama	_
+45	kasutatakse	kasutama	V	V	Mood=indic|Polarity=af|Tense=pres|VerbType=aux|Voice=imps	32	conj	H_lemma:looma	_
+46	Onako	Onako	S	S	Case=gen|Number=sg	47	nmod	H_lemma:erastamine	_
+47	erastamisel	erastamine	S	S	Case=ad|Number=sg	45	obl	H_lemma:kasutama	_
+48	.	.	Z	Z	_	1	punct	H_lemma:näima	_
+
+# sent_id = 7900841
+# text = Peatas tööle minnes oma heleda " Pobeda " Helve kodu ukse ees , võttis oma uue töötaja koos lapsega peale , sõidutas tüdruku lasteaeda ning sõitis sealt edasi koos Helvega tööle .
+1	Peatas	peatama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+2	tööle	töö	S	S	Case=all|Number=sg	3	obl	H_lemma:minema	_
+3	minnes	minema	V	V	VerbForm=ger|VerbType=aux	1	advcl	H_lemma:peatama	_
+4	oma	oma	P	P	Case=gen|Number=sg	7	nmod	H_lemma:Pobeda	_
+5	heleda	hele	A	A	Case=gen|Number=sg	7	amod	H_lemma:Pobeda	_
+6	"	"	Z	Z	_	7	punct	H_lemma:Pobeda	_
+7	Pobeda	Pobeda	S	S	Case=gen|Number=sg	10	nmod	H_lemma:kodu	_
+8	"	"	Z	Z	_	7	punct	H_lemma:Pobeda	_
+9	Helve	Helve	S	S	Case=gen|Number=sg	10	nmod	H_lemma:kodu	_
+10	kodu	kodu	S	S	Case=gen|Number=sg	11	nmod	H_lemma:uks	_
+11	ukse	uks	S	S	Case=gen|Number=sg	1	obl	H_lemma:peatama	_
+12	ees	ees	K	K	AdpType=post	11	case	H_lemma:uks	_
+13	,	,	Z	Z	_	14	punct	H_lemma:võtma	_
+14	võttis	võtma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	1	conj	H_lemma:peatama	_
+15	oma	oma	P	P	Case=gen|Number=sg	17	nmod	H_lemma:töötaja	_
+16	uue	uus	A	A	Case=gen|Number=sg	17	amod	H_lemma:töötaja	_
+17	töötaja	töötaja	S	S	Case=gen|Number=sg	14	obj	H_lemma:võtma	_
+18	koos	koos	K	K	AdpType=post	19	case	H_lemma:laps	_
+19	lapsega	laps	S	S	Case=kom|Number=sg	14	obl	H_lemma:võtma	_
+20	peale	peale	D	D	_	14	compound:prt	H_lemma:võtma	_
+21	,	,	Z	Z	_	22	punct	H_lemma:sõidutama	_
+22	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	1	conj	H_lemma:peatama	_
+23	tüdruku	tüdruk	S	S	Case=gen|Number=sg	22	obj	H_lemma:sõidutama	_
+24	lasteaeda	lasteaed	S	S	Case=part|Number=sg	22	obj	H_lemma:sõidutama	_
+25	ning	ning	J	J	_	26	cc	H_lemma:sõitma	_
+26	sõitis	sõitma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	1	conj	H_lemma:peatama	_
+27	sealt	sealt	D	D	_	26	advmod	H_lemma:sõitma	_
+28	edasi	edasi	D	D	_	26	compound:prt	H_lemma:sõitma	_
+29	koos	koos	K	K	AdpType=post	30	case	H_lemma:Helve	_
+30	Helvega	Helve	S	S	Case=kom|Number=sg	26	obl	H_lemma:sõitma	_
+31	tööle	töö	S	S	Case=all|Number=sg	26	obl	H_lemma:sõitma	_
+32	.	.	Z	Z	_	1	punct	H_lemma:peatama	_
+
+# sent_id = 7900885
+# text = " Isa teid just vist palju oma masinaga ei sõiduta ?
+1	"	"	Z	Z	_	10	punct	H_lemma:sõidutama	_
+2	Isa	isa	S	S	Case=nom|Number=sg	10	nsubj	H_lemma:sõidutama	_
+3	teid	tee	S	S	Case=part|Number=pl	10	obj	H_lemma:sõidutama	_
+4	just	just	D	D	_	5	advmod	H_lemma:vist	_
+5	vist	vist	D	D	_	10	advmod	H_lemma:sõidutama	_
+6	palju	palju	D	D	_	10	advmod	H_lemma:sõidutama	_
+7	oma	oma	P	P	Case=gen|Number=sg	8	nmod	H_lemma:masin	_
+8	masinaga	masin	S	S	Case=kom|Number=sg	10	obl	H_lemma:sõidutama	_
+9	ei	ei	V	V	Polarity=neg|VerbType=aux	10	aux	H_lemma:sõidutama	_
+10	sõiduta	sõidutama	V	V	Mood=indic|Polarity=neg|Tense=pres|VerbType=mod|Voice=ps	0	root	_	_
+11	?	?	Z	Z	_	10	punct	H_lemma:sõidutama	_
+
+# sent_id = 7903601
+# text = Kuid tütar Dorrit sõidutas teda meeleldi .
+1	Kuid	kuid	J	J	_	4	cc	H_lemma:sõidutama	_
+2	tütar	tütar	S	S	Case=nom|Number=sg	4	nsubj	H_lemma:sõidutama	_
+3	Dorrit	Dorrit	S	S	Case=nom|Number=sg	2	appos	H_lemma:tütar	_
+4	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	0	root	_	_
+5	teda	tema	P	P	Case=part|Number=sg	4	obj	H_lemma:sõidutama	_
+6	meeleldi	meeleldi	D	D	_	4	advmod	H_lemma:sõidutama	_
+7	.	.	Z	Z	_	4	punct	H_lemma:sõidutama	_
+
+# sent_id = 7922713
+# text = Ma sõidutan ta sinna Kolmandale liinile , loodan , et keegi seal kallale ei tule , saabki temast lahti , niigi pikalt aega kulutatud .
+1	Ma	mina	P	P	Case=nom|Number=sg	2	nsubj	H_lemma:sõidutama	_
+2	sõidutan	sõidutama	V	V	Mood=indic|Number=sg|Person=ps1|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	0	root	_	_
+3	ta	tema	P	P	Case=nom|Number=sg	2	obj	H_lemma:sõidutama	_
+4	sinna	sinna	D	D	_	2	advmod	H_lemma:sõidutama	_
+5	Kolmandale	Kolmandale	S	S	Case=gen|Number=sg	6	nmod	H_lemma:liin	_
+6	liinile	liin	S	S	Case=all|Number=sg	2	obl	H_lemma:sõidutama	_
+7	,	,	Z	Z	_	8	punct	H_lemma:lootma	_
+8	loodan	lootma	V	V	Mood=indic|Number=sg|Person=ps1|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	2	conj	H_lemma:sõidutama	_
+9	,	,	Z	Z	_	15	punct	H_lemma:tulema	_
+10	et	et	J	J	_	15	mark	H_lemma:tulema	_
+11	keegi	keegi	P	P	Case=nom|Number=sg	15	nsubj	H_lemma:tulema	_
+12	seal	seal	D	D	_	15	advmod	H_lemma:tulema	_
+13	kallale	kallale	D	D	_	15	compound:prt	H_lemma:tulema	_
+14	ei	ei	V	V	Polarity=neg|VerbType=aux	15	aux	H_lemma:tulema	_
+15	tule	tulema	V	V	Mood=indic|Polarity=neg|Tense=pres|VerbType=aux|Voice=ps	8	ccomp	H_lemma:lootma	_
+16	,	,	Z	Z	_	17	punct	H_lemma:saama	_
+17	saabki	saama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	2	conj	H_lemma:sõidutama	_
+18	temast	tema	P	P	Case=el|Number=sg	17	obl	H_lemma:saama	_
+19	lahti	lahti	D	D	_	17	compound:prt	H_lemma:saama	_
+20	,	,	Z	Z	_	24	punct	H_lemma:kulutama	_
+21	niigi	niigi	D	D	_	24	advmod	H_lemma:kulutama	_
+22	pikalt	pikalt	D	D	_	24	advmod	H_lemma:kulutama	_
+23	aega	aeg	S	S	Case=part|Number=sg	24	obl	H_lemma:kulutama	_
+24	kulutatud	kulutama	V	V	Mood=indic|Polarity=neg|Tense=impf|VerbType=aux|Voice=imps	15	conj	H_lemma:tulema	_
+25	.	.	Z	Z	_	2	punct	H_lemma:sõidutama	_
+
+# sent_id = 7924234
+# text = Sealtsamast sõidutas Marge mu minema ja laskis linnavalitsuse ees välja .
+1	Sealtsamast	sealtsamast	D	D	_	2	advmod	H_lemma:sõidutama	_
+2	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+3	Marge	Marge	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:sõidutama	_
+4	mu	mina	P	P	Case=gen|Number=sg	5	obj	H_lemma:minema	_
+5	minema	minema	V	V	Case=ill|VerbForm=sup|VerbType=main|Voice=ps	2	xcomp	H_lemma:sõidutama	_
+6	ja	ja	J	J	_	7	cc	H_lemma:laskma	_
+7	laskis	laskma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	2	conj	H_lemma:sõidutama	_
+8	linnavalitsuse	linnavalitsus	S	S	Case=gen|Number=sg	7	obl	H_lemma:laskma	_
+9	ees	ees	K	K	AdpType=post	8	case	H_lemma:linnavalitsus	_
+10	välja	välja	D	D	_	7	compound:prt	H_lemma:laskma	_
+11	.	.	Z	Z	_	2	punct	H_lemma:sõidutama	_
+
+# sent_id = 7926483
+# text = Ma tahaksin , et ta sõidutaks mu nüüd koju . "
+1	Ma	mina	P	P	Case=nom|Number=sg	2	nsubj	H_lemma:tahtma	_
+2	tahaksin	tahtma	V	V	Mood=cond|Number=sg|Person=ps1|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	0	root	_	_
+3	,	,	Z	Z	_	6	punct	H_lemma:sõidutama	_
+4	et	et	J	J	_	6	mark	H_lemma:sõidutama	_
+5	ta	tema	P	P	Case=nom|Number=sg	6	nsubj	H_lemma:sõidutama	_
+6	sõidutaks	sõidutama	V	V	Mood=cond|Polarity=af|Tense=pres|VerbType=main|Voice=ps	2	ccomp	H_lemma:tahtma	_
+7	mu	mina	P	P	Case=gen|Number=sg	6	obj	H_lemma:sõidutama	_
+8	nüüd	nüüd	D	D	_	6	advmod	H_lemma:sõidutama	_
+9	koju	kodu	S	S	Case=adit|Number=sg	6	obl	H_lemma:sõidutama	_
+10	.	.	Z	Z	_	2	punct	H_lemma:tahtma	_
+11	"	"	Z	Z	_	2	punct	H_lemma:tahtma	_
+
+# sent_id = 7952879
+# text = Tegelikult ma vihkan seaduskuulekust ( olles üldiselt , fantaasiatest väljaspool , häbiväärselt seaduskartlik ja - täpne ) , sest seadusekuulekad inimesed on need , kes sõidutavad teisi ja sõidavad ise gaasiahjudesse .
+1	Tegelikult	tegelikult	D	D	_	3	advmod	H_lemma:vihkama	_
+2	ma	mina	P	P	Case=nom|Number=sg	3	nsubj	H_lemma:vihkama	_
+3	vihkan	vihkama	V	V	Mood=indic|Number=sg|Person=ps1|Polarity=af|Tense=pres|VerbType=main|Voice=ps	0	root	_	_
+4	seaduskuulekust	seaduskuulekus	S	S	Case=part|Number=sg	3	obj	H_lemma:vihkama	_
+5	(	(	Z	Z	_	7	punct	H_lemma:üldiselt	_
+6	olles	olema	V	V	VerbForm=ger|VerbType=aux	7	cop	H_lemma:üldiselt	_
+7	üldiselt	üldiselt	D	D	_	3	parataxis	H_lemma:vihkama	_
+8	,	,	Z	Z	_	9	punct	H_lemma:fantaasia	_
+9	fantaasiatest	fantaasia	S	S	Case=el|Number=pl	7	conj	H_lemma:üldiselt	_
+10	väljaspool	väljaspool	D	D	_	7	conj	H_lemma:üldiselt	_
+11	,	,	Z	Z	_	13	punct	H_lemma:seaduskartlik	_
+12	häbiväärselt	häbiväärselt	D	D	_	13	advmod	H_lemma:seaduskartlik	_
+13	seaduskartlik	seaduskartlik	A	A	Case=nom|Number=sg	7	conj	H_lemma:üldiselt	_
+14	ja	ja	J	J	_	16	cc	H_lemma:täpne	_
+15	-	-	Z	Z	_	16	punct	H_lemma:täpne	_
+16	täpne	täpne	A	A	Case=nom|Number=sg	13	conj	H_lemma:seaduskartlik	_
+17	)	)	Z	Z	_	7	punct	H_lemma:üldiselt	_
+18	,	,	Z	Z	_	23	punct	H_lemma:see	_
+19	sest	sest	J	J	_	23	mark	H_lemma:see	_
+20	seadusekuulekad	seadusekuulekas	A	A	Case=nom|Number=pl	21	amod	H_lemma:inimene	_
+21	inimesed	inimene	S	S	Case=nom|Number=pl	23	nsubj:cop	H_lemma:see	_
+22	on	olema	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	23	cop	H_lemma:see	_
+23	need	see	P	P	Case=nom|Number=pl	3	advcl	H_lemma:vihkama	_
+24	,	,	Z	Z	_	26	punct	H_lemma:sõidutama	_
+25	kes	kes	P	P	Case=nom|Number=sg	26	nsubj	H_lemma:sõidutama	_
+26	sõidutavad	sõidutama	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	23	acl:relcl	H_lemma:see	_
+27	teisi	teine	P	P	Case=part|Number=pl	26	obj	H_lemma:sõidutama	_
+28	ja	ja	J	J	_	29	cc	H_lemma:sõitma	_
+29	sõidavad	sõitma	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	26	conj	H_lemma:sõidutama	_
+30	ise	ise	P	P	Case=nom|Number=sg	29	advmod	H_lemma:sõitma	_
+31	gaasiahjudesse	gaasiahi	S	S	Case=ill|Number=pl	29	obl	H_lemma:sõitma	_
+32	.	.	Z	Z	_	3	punct	H_lemma:vihkama	_
+
+# sent_id = 7966480
+# text = Pealegi võib ta igale patrullile kinnitada , et sõidutab arreteeritud sakslast .
+1	Pealegi	pealegi	D	D	_	6	advmod	H_lemma:kinnitama	_
+2	võib	võima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	6	aux	H_lemma:kinnitama	_
+3	ta	tema	P	P	Case=nom|Number=sg	6	nsubj	H_lemma:kinnitama	_
+4	igale	iga	P	P	Case=all|Number=sg	5	det	H_lemma:patrull	_
+5	patrullile	patrull	S	S	Case=all|Number=sg	6	obl	H_lemma:kinnitama	_
+6	kinnitada	kinnitama	V	V	VerbForm=inf|VerbType=aux	0	root	_	_
+7	,	,	Z	Z	_	9	punct	H_lemma:sõidutama	_
+8	et	et	J	J	_	9	mark	H_lemma:sõidutama	_
+9	sõidutab	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	6	ccomp	H_lemma:kinnitama	_
+10	arreteeritud	arreteerima	V	V	Mood=indic|Polarity=neg|Tense=impf|VerbType=main|Voice=imps	11	acl	H_lemma:sakslane	_
+11	sakslast	sakslane	S	S	Case=part|Number=sg	9	obj	H_lemma:sõidutama	_
+12	.	.	Z	Z	_	6	punct	H_lemma:kinnitama	_
+
+# sent_id = 7966559
+# text = Kust võiksid Kõrvemaal redutavad metsavennad teada , kui Paul Strasberg neile sihiku ette jääma juhtuks , et too üht sakslast sõidutanud oli ?
+1	Kust	kust	D	D	_	4	mark	H_lemma:redutama	_
+2	võiksid	võima	V	V	Mood=cond|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	6	aux	H_lemma:teadma	_
+3	Kõrvemaal	kõrvemaa	S	S	Case=ad|Number=sg	4	obl	H_lemma:redutama	_
+4	redutavad	redutama	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	5	acl	H_lemma:metsavend	_
+5	metsavennad	metsavend	S	S	Case=nom|Number=pl	6	nsubj	H_lemma:teadma	_
+6	teada	teadma	V	V	VerbForm=inf|VerbType=main	0	root	_	_
+7	,	,	Z	Z	_	15	punct	H_lemma:juhtuma	_
+8	kui	kui	D	D	_	15	mark	H_lemma:juhtuma	_
+9	Paul	Paul	S	S	Case=nom|Number=sg	15	nsubj	H_lemma:juhtuma	_
+10	Strasberg	Strasberg	S	S	Case=nom|Number=sg	9	flat	H_lemma:Paul	_
+11	neile	tema	P	P	Case=all|Number=pl	15	obl	H_lemma:juhtuma	_
+12	sihiku	sihik	S	S	Case=gen|Number=sg	14	obj	H_lemma:jääma	_
+13	ette	ette	D	D	_	14	compound:prt	H_lemma:jääma	_
+14	jääma	jääma	V	V	Case=ill|VerbForm=sup|VerbType=main|Voice=ps	15	xcomp	H_lemma:juhtuma	_
+15	juhtuks	juhtuma	V	V	Mood=cond|Polarity=af|Tense=pres|VerbType=main|Voice=ps	6	advcl	H_lemma:teadma	_
+16	,	,	Z	Z	_	21	punct	H_lemma:sõidutama	_
+17	et	et	J	J	_	21	mark	H_lemma:sõidutama	_
+18	too	too	P	P	Case=nom|Number=sg	21	nsubj	H_lemma:sõidutama	_
+19	üht	üks	N	N	Case=part|Number=sg	20	det	H_lemma:sakslane	_
+20	sakslast	sakslane	S	S	Case=part|Number=sg	21	obj	H_lemma:sõidutama	_
+21	sõidutanud	sõidutama	V	V	Tense=past|VerbForm=partic|VerbType=aux|Voice=ps	15	advcl	H_lemma:juhtuma	_
+22	oli	olema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	21	aux	H_lemma:sõidutama	_
+23	?	?	Z	Z	_	6	punct	H_lemma:teadma	_
+
+# sent_id = 7981910
+# text = Toivo sõidutas Evelini korterisse ja rippus natuke selle tisside otsas .
+1	Toivo	Toivo	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:sõidutama	_
+2	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	0	root	_	_
+3	Evelini	Evelin	S	S	Case=gen|Number=sg	2	obj	H_lemma:sõidutama	_
+4	korterisse	korter	S	S	Case=ill|Number=sg	2	obl	H_lemma:sõidutama	_
+5	ja	ja	J	J	_	6	cc	H_lemma:rippuma	_
+6	rippus	rippuma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	2	conj	H_lemma:sõidutama	_
+7	natuke	natuke	D	D	_	6	advmod	H_lemma:rippuma	_
+8	selle	see	P	P	Case=gen|Number=sg	9	det	H_lemma:tiss	_
+9	tisside	tiss	S	S	Case=gen|Number=pl	6	obl	H_lemma:rippuma	_
+10	otsas	otsas	K	K	AdpType=post	9	case	H_lemma:tiss	_
+11	.	.	Z	Z	_	2	punct	H_lemma:sõidutama	_
+
+# sent_id = 7985762
+# text = " Plekkisin taksojuhi kinni , et ta teid relvaärisse viiks ja mööda linna ringi sõidutaks .
+1	"	"	Z	Z	_	2	punct	H_lemma:plekkima	_
+2	Plekkisin	plekkima	V	V	Mood=indic|Number=sg|Person=ps1|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	0	root	_	_
+3	taksojuhi	taksojuht	S	S	Case=gen|Number=sg	2	obj	H_lemma:plekkima	_
+4	kinni	kinni	D	D	_	2	compound:prt	H_lemma:plekkima	_
+5	,	,	Z	Z	_	10	punct	H_lemma:viima	_
+6	et	et	J	J	_	10	mark	H_lemma:viima	_
+7	ta	tema	P	P	Case=nom|Number=sg	10	nsubj	H_lemma:viima	_
+8	teid	sina	P	P	Case=part|Number=pl	10	obj	H_lemma:viima	_
+9	relvaärisse	relvaäri	S	S	Case=ill|Number=sg	10	obl	H_lemma:viima	_
+10	viiks	viima	V	V	Mood=cond|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	2	advcl	H_lemma:plekkima	_
+11	ja	ja	J	J	_	15	cc	H_lemma:sõidutama	_
+12	mööda	mööda	K	K	AdpType=post	13	case	H_lemma:linn	_
+13	linna	linn	S	S	Case=part|Number=sg	15	obl	H_lemma:sõidutama	_
+14	ringi	ringi	D	D	_	15	compound:prt	H_lemma:sõidutama	_
+15	sõidutaks	sõidutama	V	V	Mood=cond|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	10	conj	H_lemma:viima	_
+16	.	.	Z	Z	_	2	punct	H_lemma:plekkima	_
+
+# sent_id = 8014065
+# text = Autojuht seletas , et tema sõidutanud Undi Pagari tänavale NKVD majasse .
+1	Autojuht	autojuht	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:seletama	_
+2	seletas	seletama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	0	root	_	_
+3	,	,	Z	Z	_	6	punct	H_lemma:sõidutama	_
+4	et	et	J	J	_	6	mark	H_lemma:sõidutama	_
+5	tema	tema	P	P	Case=gen|Number=sg	6	obj	H_lemma:sõidutama	_
+6	sõidutanud	sõidutama	V	V	Mood=indic|Polarity=neg|Tense=impf|VerbType=aux|Voice=ps	2	ccomp	H_lemma:seletama	_
+7	Undi	und	S	S	Case=part|Number=pl	6	obj	H_lemma:sõidutama	_
+8	Pagari	pagar	S	S	Case=gen|Number=sg	9	nmod	H_lemma:tänav	_
+9	tänavale	tänav	S	S	Case=all|Number=sg	6	obl	H_lemma:sõidutama	_
+10	NKVD	NKVD	Y	Y	_	11	nmod	H_lemma:maja	_
+11	majasse	maja	S	S	Case=ill|Number=sg	6	obl	H_lemma:sõidutama	_
+12	.	.	Z	Z	_	2	punct	H_lemma:seletama	_
+
+# sent_id = 8019709
+# text = Nad istusid siin autosse ja Kristjan sõidutas teda oma maja juurde .
+1	Nad	tema	P	P	Case=nom|Number=pl	2	nsubj	H_lemma:istuma	_
+2	istusid	istuma	V	V	Mood=indic|Number=sg|Person=ps2|Polarity=af|Tense=impf|VerbType=main|Voice=ps	0	root	_	_
+3	siin	siin	D	D	_	2	advmod	H_lemma:istuma	_
+4	autosse	auto	S	S	Case=ill|Number=sg	2	obl	H_lemma:istuma	_
+5	ja	ja	J	J	_	7	cc	H_lemma:sõidutama	_
+6	Kristjan	Kristjan	S	S	Case=nom|Number=sg	7	nsubj	H_lemma:sõidutama	_
+7	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	2	conj	H_lemma:istuma	_
+8	teda	tema	P	P	Case=part|Number=sg	7	obj	H_lemma:sõidutama	_
+9	oma	oma	P	P	Case=gen|Number=sg	10	nmod	H_lemma:maja	_
+10	maja	maja	S	S	Case=gen|Number=sg	7	obl	H_lemma:sõidutama	_
+11	juurde	juurde	K	K	AdpType=post	10	case	H_lemma:maja	_
+12	.	.	Z	Z	_	2	punct	H_lemma:istuma	_
+
+# sent_id = 8019719
+# text = “ Nii et maja pole iseenesest täiesti uus , aga see ei sega õnnistamast , eks ? ” küsis Kristjan , kes teda vanavõitu Opeliga oma maja juurde sõidutas .
+1	“	“	Z	Z	_	8	punct	H_lemma:uus	_
+2	Nii	nii	D	D	_	8	advmod	H_lemma:uus	_
+3	et	et	J	J	_	2	fixed	H_lemma:nii	_
+4	maja	maja	S	S	Case=nom|Number=sg	8	nsubj:cop	H_lemma:uus	_
+5	pole	olema	V	V	Mood=indic|Polarity=neg|Tense=pres|VerbType=main|Voice=ps	8	cop	H_lemma:uus	_
+6	iseenesest	iseenesest	D	D	_	8	advmod	H_lemma:uus	_
+7	täiesti	täiesti	D	D	_	8	advmod	H_lemma:uus	_
+8	uus	uus	A	A	Case=nom|Number=sg	0	root	_	_
+9	,	,	Z	Z	_	13	punct	H_lemma:segama	_
+10	aga	aga	J	J	_	13	cc	H_lemma:segama	_
+11	see	see	P	P	Case=nom|Number=sg	13	nsubj	H_lemma:segama	_
+12	ei	ei	V	V	Polarity=neg|VerbType=aux	13	aux	H_lemma:segama	_
+13	sega	segama	V	V	Mood=imper|Number=sg|Person=ps2|Polarity=neg|Tense=pres|VerbType=mod|Voice=ps	8	conj	H_lemma:uus	_
+14	õnnistamast	õnnistama	V	V	Case=el|VerbForm=sup|VerbType=aux|Voice=ps	13	xcomp	H_lemma:segama	_
+15	,	,	Z	Z	_	16	punct	H_lemma:eks	_
+16	eks	eks	D	D	_	13	advmod	H_lemma:segama	_
+17	?	?	Z	Z	_	8	punct	H_lemma:uus	_
+18	”	”	Z	Z	_	8	punct	H_lemma:uus	_
+19	küsis	küsima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	8	parataxis	H_lemma:uus	_
+20	Kristjan	Kristjan	S	S	Case=nom|Number=sg	19	nsubj	H_lemma:küsima	_
+21	,	,	Z	Z	_	29	punct	H_lemma:sõidutama	_
+22	kes	kes	P	P	Case=nom|Number=pl	29	nsubj	H_lemma:sõidutama	_
+23	teda	tema	P	P	Case=part|Number=sg	29	obj	H_lemma:sõidutama	_
+24	vanavõitu	vanavõitu	D	D	_	29	advmod	H_lemma:sõidutama	_
+25	Opeliga	Opel	S	S	Case=kom|Number=sg	29	obl	H_lemma:sõidutama	_
+26	oma	oma	P	P	Case=gen|Number=sg	27	nmod	H_lemma:maja	_
+27	maja	maja	S	S	Case=gen|Number=sg	29	obl	H_lemma:sõidutama	_
+28	juurde	juurde	K	K	AdpType=post	27	case	H_lemma:maja	_
+29	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	20	acl:relcl	H_lemma:Kristjan	_
+30	.	.	Z	Z	_	8	punct	H_lemma:uus	_
+
+# sent_id = 8524248
+# text = Siiski , kõige tumedamatel hetkedel sõidutas ta mind mootorrattaga välja linna piiridest .
+1	Siiski	siiski	D	D	_	6	advmod	H_lemma:sõidutama	_
+2	,	,	Z	Z	_	6	punct	H_lemma:sõidutama	_
+3	kõige	kõige	D	D	_	4	advmod	H_lemma:tumedam	_
+4	tumedamatel	tumedam	A	A	Case=ad|Number=pl	5	amod	H_lemma:hetk	_
+5	hetkedel	hetk	S	S	Case=ad|Number=pl	6	obl	H_lemma:sõidutama	_
+6	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	0	root	_	_
+7	ta	tema	P	P	Case=nom|Number=sg	6	nsubj	H_lemma:sõidutama	_
+8	mind	mina	P	P	Case=part|Number=sg	6	obj	H_lemma:sõidutama	_
+9	mootorrattaga	mootorratas	S	S	Case=kom|Number=sg	6	obl	H_lemma:sõidutama	_
+10	välja	välja	D	D	_	6	compound:prt	H_lemma:sõidutama	_
+11	linna	linn	S	S	Case=gen|Number=sg	12	nmod	H_lemma:piir	_
+12	piiridest	piir	S	S	Case=el|Number=pl	6	obl	H_lemma:sõidutama	_
+13	.	.	Z	Z	_	6	punct	H_lemma:sõidutama	_
+
+# sent_id = 8608858
+# text = Hommikul andsime ta üle miilitsale , kes omakorda ta väeossa sõidutas .
+1	Hommikul	hommik	S	S	Case=ad|Number=sg	2	obl	H_lemma:andma	_
+2	andsime	andma	V	V	Mood=indic|Number=pl|Person=ps1|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	0	root	_	_
+3	ta	tema	P	P	Case=gen|Number=sg	2	obj	H_lemma:andma	_
+4	üle	üle	K	K	AdpType=post	5	case	H_lemma:miilits	_
+5	miilitsale	miilits	S	S	Case=all|Number=sg	2	obl	H_lemma:andma	_
+6	,	,	Z	Z	_	11	punct	H_lemma:sõidutama	_
+7	kes	kes	P	P	Case=nom|Number=sg	11	nsubj	H_lemma:sõidutama	_
+8	omakorda	omakorda	D	D	_	11	advmod	H_lemma:sõidutama	_
+9	ta	tema	P	P	Case=gen|Number=sg	11	obj	H_lemma:sõidutama	_
+10	väeossa	väeosa	S	S	Case=adit|Number=sg	11	obj	H_lemma:sõidutama	_
+11	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	5	acl:relcl	H_lemma:miilits	_
+12	.	.	Z	Z	_	2	punct	H_lemma:andma	_
+
+# sent_id = 8611990
+# text = Suunitelmasid mul ei olnud ja raha ka eriti mitte - mispeale ta ostis mult viinad ära ja sõidutas natuke ringi .
+1	Suunitelmasid	Suunitelmas	S	S	Case=nom|Number=pl	2	nsubj:cop	H_lemma:mina	_
+2	mul	mina	P	P	Case=ad|Number=sg	0	root	_	_
+3	ei	ei	V	V	Polarity=neg|VerbType=aux	2	aux	H_lemma:mina	_
+4	olnud	olema	V	V	Mood=indic|Polarity=neg|Tense=impf|VerbType=main|Voice=ps	2	cop	H_lemma:mina	_
+5	ja	ja	J	J	_	9	cc	H_lemma:mitte	_
+6	raha	raha	S	S	Case=nom|Number=sg	2	conj	H_lemma:mina	_
+7	ka	ka	D	D	_	9	advmod	H_lemma:mitte	_
+8	eriti	eriti	D	D	_	9	advmod	H_lemma:mitte	_
+9	mitte	mitte	D	D	_	2	conj	H_lemma:mina	_
+10	-	-	Z	Z	_	13	punct	H_lemma:ostma	_
+11	mispeale	mispeale	D	D	_	13	advmod	H_lemma:ostma	_
+12	ta	tema	P	P	Case=nom|Number=sg	13	nsubj	H_lemma:ostma	_
+13	ostis	ostma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	2	parataxis	H_lemma:mina	_
+14	mult	mina	P	P	Case=abl|Number=sg	13	obl	H_lemma:ostma	_
+15	viinad	viin	S	S	Case=nom|Number=pl	13	obj	H_lemma:ostma	_
+16	ära	ära	D	D	_	13	compound:prt	H_lemma:ostma	_
+17	ja	ja	J	J	_	18	cc	H_lemma:sõidutama	_
+18	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	13	conj	H_lemma:ostma	_
+19	natuke	natuke	D	D	_	18	advmod	H_lemma:sõidutama	_
+20	ringi	ringi	D	D	_	18	compound:prt	H_lemma:sõidutama	_
+21	.	.	Z	Z	_	2	punct	H_lemma:mina	_
+
+# sent_id = 8807784
+# text = Kui papa Haraldit käsitles mamma eeskätt rahateenimismasinana , siis onu Vasja rolliks oli kodurobot , ta kooris viie suu suuruse leibkonna jaoks kartuleid , keetis suppi ning muidugi sõidutas mammat musta " Volgaga " tööle ja tagasi , nii et direktor pidi teinekord päris kaua ootama ; arvata võis , et just auto faktor oli olnud peamine , miks mamma kullipilk üldse sellel silmatorkamatul mehikesel peatus .
+1	Kui	kui	J	J	_	4	mark	H_lemma:käsitlema	_
+2	papa	papa	S	S	Case=nom|Number=sg	4	nsubj	H_lemma:käsitlema	_
+3	Haraldit	Harald	S	S	Case=part|Number=sg	2	appos	H_lemma:papa	_
+4	käsitles	käsitlema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	12	advcl	H_lemma:roll	_
+5	mamma	mamma	S	S	Case=nom|Number=sg	4	nsubj	H_lemma:käsitlema	_
+6	eeskätt	eeskätt	D	D	_	7	advmod	H_lemma:rahateenimismasin	_
+7	rahateenimismasinana	rahateenimismasin	S	S	Case=es|Number=sg	4	xcomp	H_lemma:käsitlema	_
+8	,	,	Z	Z	_	4	punct	H_lemma:käsitlema	_
+9	siis	siis	J	J	_	12	advmod	H_lemma:roll	_
+10	onu	onu	S	S	Case=nom|Number=sg	12	nmod	H_lemma:roll	_
+11	Vasja	Vasja	S	S	Case=gen|Number=sg	10	flat	H_lemma:onu	_
+12	rolliks	roll	S	S	Case=tr|Number=sg	0	root	_	_
+13	oli	olema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	12	cop	H_lemma:roll	_
+14	kodurobot	kodurobot	S	S	Case=nom|Number=sg	12	nsubj:cop	H_lemma:roll	_
+15	,	,	Z	Z	_	17	punct	H_lemma:koorima	_
+16	ta	tema	P	P	Case=nom|Number=sg	17	nsubj	H_lemma:koorima	_
+17	kooris	koorima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	12	conj	H_lemma:roll	_
+18	viie	viis	N	N	Case=gen|Number=sg	19	nummod	H_lemma:suu	_
+19	suu	suu	S	S	Case=gen|Number=sg	20	obl	H_lemma:suurune	_
+20	suuruse	suurune	A	A	Case=gen|Number=sg	21	amod	H_lemma:leibkond	_
+21	leibkonna	leibkond	S	S	Case=gen|Number=sg	17	obl	H_lemma:koorima	_
+22	jaoks	jaoks	K	K	AdpType=post	21	case	H_lemma:leibkond	_
+23	kartuleid	kartul	S	S	Case=part|Number=pl	17	obj	H_lemma:koorima	_
+24	,	,	Z	Z	_	25	punct	H_lemma:keetma	_
+25	keetis	keetma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	12	conj	H_lemma:roll	_
+26	suppi	supp	S	S	Case=part|Number=sg	25	obj	H_lemma:keetma	_
+27	ning	ning	J	J	_	29	cc	H_lemma:sõidutama	_
+28	muidugi	muidugi	D	D	_	29	advmod	H_lemma:sõidutama	_
+29	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	12	conj	H_lemma:roll	_
+30	mammat	mamma	S	S	Case=part|Number=sg	29	obj	H_lemma:sõidutama	_
+31	musta	must	A	A	Case=gen|Number=sg	33	amod	H_lemma:Volga	_
+32	"	"	Z	Z	_	33	punct	H_lemma:Volga	_
+33	Volgaga	Volga	S	S	Case=kom|Number=sg	35	nmod	H_lemma:töö	_
+34	"	"	Z	Z	_	33	punct	H_lemma:Volga	_
+35	tööle	töö	S	S	Case=all|Number=sg	29	obl	H_lemma:sõidutama	_
+36	ja	ja	J	J	_	37	cc	H_lemma:tagasi	_
+37	tagasi	tagasi	D	D	_	35	conj	H_lemma:töö	_
+38	,	,	Z	Z	_	46	punct	H_lemma:ootama	_
+39	nii	nii	D	D	_	46	advmod	H_lemma:ootama	_
+40	et	et	J	J	_	39	fixed	H_lemma:nii	_
+41	direktor	direktor	S	S	Case=nom|Number=sg	46	nsubj	H_lemma:ootama	_
+42	pidi	pidama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	46	aux	H_lemma:ootama	_
+43	teinekord	teinekord	D	D	_	46	advmod	H_lemma:ootama	_
+44	päris	päris	D	D	_	45	advmod	H_lemma:kaua	_
+45	kaua	kaua	D	D	_	46	advmod	H_lemma:ootama	_
+46	ootama	ootama	V	V	Case=ill|VerbForm=sup|VerbType=aux|Voice=ps	48	advcl	H_lemma:arvama	_
+47	;	;	Z	Z	_	48	punct	H_lemma:arvama	_
+48	arvata	arvama	V	V	VerbForm=inf|VerbType=aux	12	conj	H_lemma:roll	_
+49	võis	võima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	48	aux	H_lemma:arvama	_
+50	,	,	Z	Z	_	57	punct	H_lemma:peamine	_
+51	et	et	J	J	_	57	mark	H_lemma:peamine	_
+52	just	just	D	D	_	53	advmod	H_lemma:auto	_
+53	auto	auto	S	S	Case=gen|Number=sg	54	nmod	H_lemma:faktor	_
+54	faktor	faktor	S	S	Case=nom|Number=sg	57	nsubj:cop	H_lemma:peamine	_
+55	oli	olema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	57	aux	H_lemma:peamine	_
+56	olnud	olema	V	V	Mood=indic|Polarity=neg|Tense=impf|VerbType=mod|Voice=ps	57	cop	H_lemma:peamine	_
+57	peamine	peamine	A	A	Case=nom|Number=sg	48	ccomp	H_lemma:arvama	_
+58	,	,	Z	Z	_	66	punct	H_lemma:peatuma	_
+59	miks	miks	D	D	_	66	mark	H_lemma:peatuma	_
+60	mamma	mamma	S	S	Case=nom|Number=sg	61	nmod	H_lemma:kullipilk	_
+61	kullipilk	kullipilk	S	S	Case=nom|Number=sg	66	nsubj	H_lemma:peatuma	_
+62	üldse	üldse	D	D	_	66	advmod	H_lemma:peatuma	_
+63	sellel	see	P	P	Case=ad|Number=sg	65	det	H_lemma:mehikene	_
+64	silmatorkamatul	silmatorkamatu	A	A	Case=ad|Number=sg	65	amod	H_lemma:mehikene	_
+65	mehikesel	mehikene	S	S	Case=ad|Number=sg	66	obl	H_lemma:peatuma	_
+66	peatus	peatuma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	57	advcl	H_lemma:peamine	_
+67	.	.	Z	Z	_	12	punct	H_lemma:roll	_
+
+# sent_id = 8890437
+# text = " Millal te maksate selle dresiini eest , mis teid siia sõidutas ?
+1	"	"	Z	Z	_	4	punct	H_lemma:maksma	_
+2	Millal	millal	D	D	_	4	mark	H_lemma:maksma	_
+3	te	sina	P	P	Case=nom|Number=pl	4	nsubj	H_lemma:maksma	_
+4	maksate	maksma	V	V	Mood=indic|Number=pl|Person=ps2|Polarity=af|Tense=pres|VerbType=main|Voice=ps	0	root	_	_
+5	selle	see	P	P	Case=gen|Number=sg	6	det	H_lemma:dresiin	_
+6	dresiini	dresiin	S	S	Case=gen|Number=sg	4	obl	H_lemma:maksma	_
+7	eest	eest	K	K	AdpType=post	6	case	H_lemma:dresiin	_
+8	,	,	Z	Z	_	12	punct	H_lemma:sõidutama	_
+9	mis	mis	P	P	Case=nom|Number=pl	12	nsubj	H_lemma:sõidutama	_
+10	teid	sina	P	P	Case=part|Number=pl	12	obj	H_lemma:sõidutama	_
+11	siia	siia	D	D	_	12	advmod	H_lemma:sõidutama	_
+12	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	6	acl:relcl	H_lemma:dresiin	_
+13	?	?	Z	Z	_	4	punct	H_lemma:maksma	_
+
+# sent_id = 8892213
+# text = Mürakas KamAZ sõidutas kohale haagise , selle portele kinnitati loomulikult venekeelne loosung :
+1	Mürakas	Mürakas	S	S	Case=nom|Number=sg	3	nsubj	H_lemma:sõidutama	_
+2	KamAZ	KamAZ	S	S	Case=nom|Number=sg	1	flat	H_lemma:Mürakas	_
+3	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+4	kohale	kohale	D	D	_	3	compound:prt	H_lemma:sõidutama	_
+5	haagise	haagis	S	S	Case=gen|Number=sg	3	obj	H_lemma:sõidutama	_
+6	,	,	Z	Z	_	9	punct	H_lemma:kinnitama	_
+7	selle	see	P	P	Case=gen|Number=sg	8	nmod	H_lemma:porte	_
+8	portele	porte	S	S	Case=all|Number=sg	9	obl	H_lemma:kinnitama	_
+9	kinnitati	kinnitama	V	V	Mood=indic|Polarity=af|Tense=impf|VerbType=mod|Voice=imps	3	conj	H_lemma:sõidutama	_
+10	loomulikult	loomulikult	D	D	_	9	advmod	H_lemma:kinnitama	_
+11	venekeelne	venekeelne	A	A	Case=nom|Number=sg	12	amod	H_lemma:loosung	_
+12	loosung	loosung	S	S	Case=nom|Number=sg	9	obj	H_lemma:kinnitama	_
+13	:	:	Z	Z	_	3	punct	H_lemma:sõidutama	_
+
+# sent_id = 8909498
+# text = Auto , mis ta siia sõidutas .
+1	Auto	auto	S	S	Case=nom|Number=sg	0	root	_	_
+2	,	,	Z	Z	_	6	punct	H_lemma:sõidutama	_
+3	mis	mis	P	P	Case=nom|Number=pl	6	obj	H_lemma:sõidutama	_
+4	ta	tema	P	P	Case=nom|Number=sg	6	nsubj	H_lemma:sõidutama	_
+5	siia	siia	D	D	_	6	advmod	H_lemma:sõidutama	_
+6	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	1	acl:relcl	H_lemma:auto	_
+7	.	.	Z	Z	_	1	punct	H_lemma:auto	_
+
+# sent_id = 8997034
+# text = Kõik nad selgitavad tohtritele-apteekritele oma ravimite eeliseid , pakuvad kohvi ja küpsiseid , korraldavad konverentse ning sõidutavad mõnikord välismaalegi .
+1	Kõik	kõik	P	P	Case=nom|Number=pl	2	det	H_lemma:tema	_
+2	nad	tema	P	P	Case=nom|Number=pl	3	nsubj	H_lemma:selgitama	_
+3	selgitavad	selgitama	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	0	root	_	_
+4	tohtritele-apteekritele	tohtritele-apteeker	S	S	Case=all|Number=pl	3	obl	H_lemma:selgitama	_
+5	oma	oma	P	P	Case=gen|Number=sg	6	nmod	H_lemma:ravim	_
+6	ravimite	ravim	S	S	Case=gen|Number=pl	7	nmod	H_lemma:eelis	_
+7	eeliseid	eelis	S	S	Case=part|Number=pl	3	obj	H_lemma:selgitama	_
+8	,	,	Z	Z	_	9	punct	H_lemma:pakkuma	_
+9	pakuvad	pakkuma	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	3	conj	H_lemma:selgitama	_
+10	kohvi	kohv	S	S	Case=part|Number=sg	9	obj	H_lemma:pakkuma	_
+11	ja	ja	J	J	_	12	cc	H_lemma:küpsis	_
+12	küpsiseid	küpsis	S	S	Case=part|Number=pl	10	conj	H_lemma:kohv	_
+13	,	,	Z	Z	_	14	punct	H_lemma:korraldama	_
+14	korraldavad	korraldama	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	3	conj	H_lemma:selgitama	_
+15	konverentse	konverents	S	S	Case=part|Number=pl	14	obj	H_lemma:korraldama	_
+16	ning	ning	J	J	_	17	cc	H_lemma:sõidutama	_
+17	sõidutavad	sõidutama	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	3	conj	H_lemma:selgitama	_
+18	mõnikord	mõnikord	D	D	_	17	advmod	H_lemma:sõidutama	_
+19	välismaalegi	välismaa	S	S	Case=all|Number=sg	17	obl	H_lemma:sõidutama	_
+20	.	.	Z	Z	_	3	punct	H_lemma:selgitama	_
+
+# sent_id = 9044473
+# text = Enne kojuminekut sõidutas lapsi kõrvaltänavatel liikluspolitsei avariibuss .
+1	Enne	enne	K	K	AdpType=post	2	case	H_lemma:kojuminek	_
+2	kojuminekut	kojuminek	S	S	Case=part|Number=sg	3	obl	H_lemma:sõidutama	_
+3	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	0	root	_	_
+4	lapsi	laps	S	S	Case=part|Number=pl	3	obj	H_lemma:sõidutama	_
+5	kõrvaltänavatel	kõrvaltänav	S	S	Case=ad|Number=pl	3	obl	H_lemma:sõidutama	_
+6	liikluspolitsei	liikluspolitsei	S	S	Case=gen|Number=sg	7	nmod	H_lemma:avariibuss	_
+7	avariibuss	avariibuss	S	S	Case=nom|Number=sg	3	nsubj	H_lemma:sõidutama	_
+8	.	.	Z	Z	_	3	punct	H_lemma:sõidutama	_
+
+# sent_id = 9120099
+# text = Raha teenima peaksid nad aga ise - sõidutaksid lapsi tankidega ja laseksid soovijail oma tukkidest pauku teha .
+1	Raha	raha	S	S	Case=nom|Number=sg	2	obj	H_lemma:teenima	_
+2	teenima	teenima	V	V	Case=ill|VerbForm=sup|VerbType=aux|Voice=ps	0	root	_	_
+3	peaksid	pidama	V	V	Mood=cond|Number=sg|Person=ps2|Polarity=af|Tense=pres|VerbType=main|Voice=ps	2	aux	H_lemma:teenima	_
+4	nad	tema	P	P	Case=nom|Number=pl	2	nsubj	H_lemma:teenima	_
+5	aga	aga	J	J	_	2	advmod	H_lemma:teenima	_
+6	ise	ise	D	D	_	2	advmod	H_lemma:teenima	_
+7	-	-	Z	Z	_	8	punct	H_lemma:sõidutama	_
+8	sõidutaksid	sõidutama	V	V	Mood=cond|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	2	parataxis	H_lemma:teenima	_
+9	lapsi	laps	S	S	Case=part|Number=pl	8	obj	H_lemma:sõidutama	_
+10	tankidega	tank	S	S	Case=kom|Number=pl	8	obl	H_lemma:sõidutama	_
+11	ja	ja	J	J	_	12	cc	H_lemma:laskma	_
+12	laseksid	laskma	V	V	Mood=cond|Number=sg|Person=ps2|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	8	conj	H_lemma:sõidutama	_
+13	soovijail	soovija	S	S	Case=ad|Number=pl	12	obl	H_lemma:laskma	_
+14	oma	oma	P	P	Case=gen|Number=sg	15	nmod	H_lemma:tukk	_
+15	tukkidest	tukk	S	S	Case=el|Number=pl	17	obl	H_lemma:tegema	_
+16	pauku	pauk	S	S	Case=part|Number=sg	17	obj	H_lemma:tegema	_
+17	teha	tegema	V	V	VerbForm=inf|VerbType=aux	12	xcomp	H_lemma:laskma	_
+18	.	.	Z	Z	_	2	punct	H_lemma:teenima	_
+
+# sent_id = 10082660
+# text = Üks neistki , keda tudengieas Vengerfeldt veerand sajandit tagasi ajalehetoimetusest objektidele sõidutas , ilmus direktori kabinetti küsimustega .
+1	Üks	üks	P	P	Case=nom|Number=sg	14	nsubj	H_lemma:ilmuma	_
+2	neistki	see	P	P	Case=el|Number=pl	1	nmod	H_lemma:üks	_
+3	,	,	Z	Z	_	12	punct	H_lemma:sõidutama	_
+4	keda	kes	P	P	Case=part|Number=pl	12	obj	H_lemma:sõidutama	_
+5	tudengieas	tudengiiga	S	S	Case=in|Number=sg	12	obl	H_lemma:sõidutama	_
+6	Vengerfeldt	Vengerfeldt	S	S	Case=nom|Number=sg	12	nsubj	H_lemma:sõidutama	_
+7	veerand	veerand	N	N	Case=nom|Number=sg	8	nummod	H_lemma:sajand	_
+8	sajandit	sajand	S	S	Case=part|Number=sg	12	obl	H_lemma:sõidutama	_
+9	tagasi	tagasi	K	K	AdpType=post	8	case	H_lemma:sajand	_
+10	ajalehetoimetusest	ajalehetoimetus	S	S	Case=el|Number=sg	12	obl	H_lemma:sõidutama	_
+11	objektidele	objekt	S	S	Case=all|Number=pl	12	obl	H_lemma:sõidutama	_
+12	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	2	acl:relcl	H_lemma:see	_
+13	,	,	Z	Z	_	12	punct	H_lemma:sõidutama	_
+14	ilmus	ilmuma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	0	root	_	_
+15	direktori	direktor	S	S	Case=gen|Number=sg	16	nmod	H_lemma:kabinet	_
+16	kabinetti	kabinet	S	S	Case=adit|Number=sg	14	obl	H_lemma:ilmuma	_
+17	küsimustega	küsimus	S	S	Case=kom|Number=pl	14	obl	H_lemma:ilmuma	_
+18	.	.	Z	Z	_	14	punct	H_lemma:ilmuma	_
+
+# sent_id = 10749981
+# text = Peremees on Kaarot sellega paar korda sõidutanud .
+1	Peremees	peremees	S	S	Case=nom|Number=sg	7	nsubj	H_lemma:sõidutama	_
+2	on	olema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	7	aux	H_lemma:sõidutama	_
+3	Kaarot	Kaarot	S	S	Case=nom|Number=sg	7	obj	H_lemma:sõidutama	_
+4	sellega	see	P	P	Case=kom|Number=sg	7	obl	H_lemma:sõidutama	_
+5	paar	paar	N	N	Case=nom|Number=sg	6	nummod	H_lemma:kord	_
+6	korda	kord	S	S	Case=part|Number=sg	7	obl	H_lemma:sõidutama	_
+7	sõidutanud	sõidutama	V	V	Tense=past|VerbForm=partic|VerbType=mod|Voice=ps	0	root	_	_
+8	.	.	Z	Z	_	7	punct	H_lemma:sõidutama	_
+
+# sent_id = 10981058
+# text = Teise kaamera kinnitas ta auto kapotile ja siis sõidutas masina 100kilomeetrise tunnikiirusega mäest alla .
+1	Teise	Teise	S	S	Case=gen|Number=sg	2	nmod	H_lemma:kaamera	_
+2	kaamera	kaamera	S	S	Case=nom|Number=sg	3	nsubj	H_lemma:kinnitama	_
+3	kinnitas	kinnitama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+4	ta	tema	P	P	Case=gen|Number=sg	3	obj	H_lemma:kinnitama	_
+5	auto	auto	S	S	Case=gen|Number=sg	3	obj	H_lemma:kinnitama	_
+6	kapotile	kapott	S	S	Case=all|Number=sg	3	obl	H_lemma:kinnitama	_
+7	ja	ja	J	J	_	9	cc	H_lemma:sõidutama	_
+8	siis	siis	D	D	_	9	advmod	H_lemma:sõidutama	_
+9	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	3	conj	H_lemma:kinnitama	_
+10	masina	masin	S	S	Case=gen|Number=sg	9	obj	H_lemma:sõidutama	_
+11	100kilomeetrise	100kilomeetrine	A	A	Case=gen|Number=sg	12	amod	H_lemma:tunnikiirus	_
+12	tunnikiirusega	tunnikiirus	S	S	Case=kom|Number=sg	9	obl	H_lemma:sõidutama	_
+13	mäest	mägi	S	S	Case=el|Number=sg	9	obl	H_lemma:sõidutama	_
+14	alla	alla	D	D	_	9	compound:prt	H_lemma:sõidutama	_
+15	.	.	Z	Z	_	3	punct	H_lemma:kinnitama	_
+
+# sent_id = 11070860
+# text = Kokkupõrke järel kukkus Poom valugrimassides murule , tema juurde tõtanud Eesti koondise arst Gunnar Männik sõidutas palluri kohe Mustamäe haiglasse uuringutele .
+1	Kokkupõrke	kokkupõrge	S	S	Case=gen|Number=sg	3	obl	H_lemma:kukkuma	_
+2	järel	järel	K	K	AdpType=post	1	case	H_lemma:kokkupõrge	_
+3	kukkus	kukkuma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+4	Poom	Poom	S	S	Case=nom|Number=sg	3	nsubj	H_lemma:kukkuma	_
+5	valugrimassides	valugrimass	S	S	Case=in|Number=pl	3	obl	H_lemma:kukkuma	_
+6	murule	muru	S	S	Case=all|Number=sg	3	obl	H_lemma:kukkuma	_
+7	,	,	Z	Z	_	16	punct	H_lemma:sõidutama	_
+8	tema	tema	P	P	Case=gen|Number=sg	10	obl	H_lemma:tõttama	_
+9	juurde	juurde	K	K	AdpType=post	8	case	H_lemma:tema	_
+10	tõtanud	tõttama	V	V	Mood=indic|Polarity=neg|Tense=impf|VerbType=main|Voice=ps	13	acl	H_lemma:arst	_
+11	Eesti	Eesti	S	S	Case=gen|Number=sg	12	nmod	H_lemma:koondis	_
+12	koondise	koondis	S	S	Case=gen|Number=sg	13	nmod	H_lemma:arst	_
+13	arst	arst	S	S	Case=nom|Number=sg	16	nsubj	H_lemma:sõidutama	_
+14	Gunnar	Gunnar	S	S	Case=nom|Number=sg	13	appos	H_lemma:arst	_
+15	Männik	Männik	S	S	Case=nom|Number=sg	14	flat	H_lemma:Gunnar	_
+16	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	3	conj	H_lemma:kukkuma	_
+17	palluri	pallur	S	S	Case=gen|Number=sg	16	obj	H_lemma:sõidutama	_
+18	kohe	kohe	D	D	_	16	advmod	H_lemma:sõidutama	_
+19	Mustamäe	Mustamägi	S	S	Case=gen|Number=sg	20	nmod	H_lemma:haigla	_
+20	haiglasse	haigla	S	S	Case=ill|Number=sg	16	obl	H_lemma:sõidutama	_
+21	uuringutele	uuring	S	S	Case=all|Number=pl	16	obl	H_lemma:sõidutama	_
+22	.	.	Z	Z	_	3	punct	H_lemma:kukkuma	_
+
+# newdoc = file="aja_sloleht_2000_07_03.tasak.xml" type="artikkel" title="Pruutpaar autoõnnetuses" text_no="515362" subcorpus="aja_sloleht">
+# sent_id = 11746692
+# text = Tartus kihutas laupäeval kella poole kolme paiku pärastlõunal pruutpaari sõidutanud Mitsubishi - peigmees ise roolis - Tiigi ja Kastani tänava ristmikul ette Toyotale .
+1	Tartus	Tartu	S	S	Case=in|Number=sg	2	obl	H_lemma:kihutama	_
+2	kihutas	kihutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+3	laupäeval	laupäev	S	S	Case=ad|Number=sg	2	obl	H_lemma:kihutama	_
+4	kella	kell	S	S	Case=gen|Number=sg	2	obl	H_lemma:kihutama	_
+5	poole	pool	N	N	Case=gen|Number=sg	4	nummod	H_lemma:kell	_
+6	kolme	kolm	N	N	Case=gen|Number=sg	10	obl	H_lemma:sõidutama	_
+7	paiku	paiku	K	K	AdpType=post	6	case	H_lemma:kolm	_
+8	pärastlõunal	pärastlõuna	S	S	Case=ad|Number=sg	10	obl	H_lemma:sõidutama	_
+9	pruutpaari	pruutpaar	S	S	Case=gen|Number=sg	10	obj	H_lemma:sõidutama	_
+10	sõidutanud	sõidutama	V	V	Mood=indic|Polarity=neg|Tense=impf|VerbType=aux|Voice=ps	11	acl	H_lemma:Mitsubishi	_
+11	Mitsubishi	Mitsubishi	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:kihutama	_
+12	-	-	Z	Z	_	15	punct	H_lemma:roolima	_
+13	peigmees	peigmees	S	S	Case=nom|Number=sg	15	nsubj	H_lemma:roolima	_
+14	ise	ise	P	P	Case=nom|Number=sg	13	nmod	H_lemma:peigmees	_
+15	roolis	roolima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	2	parataxis	H_lemma:kihutama	_
+16	-	-	Z	Z	_	15	punct	H_lemma:roolima	_
+17	Tiigi	Tiigi	S	S	Case=gen|Number=sg	20	nmod	H_lemma:tänav	_
+18	ja	ja	J	J	_	19	cc	H_lemma:kastan	_
+19	Kastani	kastan	S	S	Case=gen|Number=sg	17	conj	H_lemma:Tiigi	_
+20	tänava	tänav	S	S	Case=gen|Number=sg	21	nmod	H_lemma:ristmik	_
+21	ristmikul	ristmik	S	S	Case=ad|Number=sg	15	obl	H_lemma:roolima	_
+22	ette	ette	D	D	_	15	compound:prt	H_lemma:roolima	_
+23	Toyotale	Toyota	S	S	Case=all|Number=sg	15	obl	H_lemma:roolima	_
+24	.	.	Z	Z	_	2	punct	H_lemma:kihutama	_
+
+# sent_id = 12155737
+# text = Üheksa aastat sõidutas isa tütreid iga päev Tallinna kooli ja koju , tänavu otsustati asuda linna ühiselamusse .
+1	Üheksa	üheksa	N	N	Case=nom|Number=sg	2	nummod	H_lemma:aasta	_
+2	aastat	aasta	S	S	Case=part|Number=sg	3	obl	H_lemma:sõidutama	_
+3	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+4	isa	isa	S	S	Case=gen|Number=sg	5	nmod	H_lemma:tütar	_
+5	tütreid	tütar	S	S	Case=part|Number=pl	3	obj	H_lemma:sõidutama	_
+6	iga	iga	P	P	Case=nom|Number=sg	7	det	H_lemma:päev	_
+7	päev	päev	S	S	Case=nom|Number=sg	3	obl	H_lemma:sõidutama	_
+8	Tallinna	Tallinn	S	S	Case=gen|Number=sg	9	nmod	H_lemma:kool	_
+9	kooli	kool	S	S	Case=adit|Number=sg	3	obl	H_lemma:sõidutama	_
+10	ja	ja	J	J	_	11	cc	H_lemma:kodu	_
+11	koju	kodu	S	S	Case=adit|Number=sg	9	conj	H_lemma:kool	_
+12	,	,	Z	Z	_	14	punct	H_lemma:otsustama	_
+13	tänavu	tänavu	D	D	_	14	advmod	H_lemma:otsustama	_
+14	otsustati	otsustama	V	V	Mood=indic|Polarity=af|Tense=impf|VerbType=main|Voice=imps	3	conj	H_lemma:sõidutama	_
+15	asuda	asuma	V	V	VerbForm=inf|VerbType=main	14	xcomp	H_lemma:otsustama	_
+16	linna	linn	S	S	Case=gen|Number=sg	17	nmod	H_lemma:ühiselamu	_
+17	ühiselamusse	ühiselamu	S	S	Case=ill|Number=sg	15	obl	H_lemma:asuma	_
+18	.	.	Z	Z	_	3	punct	H_lemma:sõidutama	_
+
+# sent_id = 12397810
+# text = Ta oli mu vastu alguses kena - sõidutas ema hauale ja ravivõimlemisse , tõi toitu ja rohtu ning lubas kõige eest hoolitseda . ”
+1	Ta	tema	P	P	Case=nom|Number=sg	6	nsubj:cop	H_lemma:kena	_
+2	oli	olema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	6	cop	H_lemma:kena	_
+3	mu	mina	P	P	Case=gen|Number=sg	6	obl	H_lemma:kena	_
+4	vastu	vastu	K	K	AdpType=post	3	case	H_lemma:mina	_
+5	alguses	algus	S	S	Case=in|Number=sg	6	obl	H_lemma:kena	_
+6	kena	kena	A	A	Case=nom|Number=sg	0	root	_	_
+7	-	-	Z	Z	_	8	punct	H_lemma:sõidutama	_
+8	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	6	parataxis	H_lemma:kena	_
+9	ema	ema	S	S	Case=nom|Number=sg	8	obj	H_lemma:sõidutama	_
+10	hauale	haud	S	S	Case=all|Number=sg	8	obl	H_lemma:sõidutama	_
+11	ja	ja	J	J	_	12	cc	H_lemma:ravivõimlemine	_
+12	ravivõimlemisse	ravivõimlemine	S	S	Case=adit|Number=sg	10	conj	H_lemma:haud	_
+13	,	,	Z	Z	_	14	punct	H_lemma:tooma	_
+14	tõi	tooma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	8	conj	H_lemma:sõidutama	_
+15	toitu	toit	S	S	Case=part|Number=sg	14	obj	H_lemma:tooma	_
+16	ja	ja	J	J	_	17	cc	H_lemma:rohi	_
+17	rohtu	rohi	S	S	Case=part|Number=sg	15	conj	H_lemma:toit	_
+18	ning	ning	J	J	_	19	cc	H_lemma:lubama	_
+19	lubas	lubama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	8	conj	H_lemma:sõidutama	_
+20	kõige	kõik	P	P	Case=gen|Number=sg	22	obl	H_lemma:hoolitsema	_
+21	eest	eest	K	K	AdpType=post	20	case	H_lemma:kõik	_
+22	hoolitseda	hoolitsema	V	V	VerbForm=inf|VerbType=mod	19	xcomp	H_lemma:lubama	_
+23	.	.	Z	Z	_	6	punct	H_lemma:kena	_
+24	”	”	Z	Z	_	6	punct	H_lemma:kena	_
+
+# sent_id = 12450466
+# text = Heauskne hääletaja sai esmaspäeva öösel Harjumaal peksa , teda sõidutanud mehed lõid noormeest noaga ning röövisid talt raha ja koti .
+1	Heauskne	heauskne	A	A	Case=nom|Number=sg	2	amod	H_lemma:hääletaja	_
+2	hääletaja	hääletaja	S	S	Case=nom|Number=sg	3	nsubj	H_lemma:saama	_
+3	sai	saama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	0	root	_	_
+4	esmaspäeva	esmaspäev	S	S	Case=gen|Number=sg	3	obj	H_lemma:saama	_
+5	öösel	öösel	D	D	_	3	advmod	H_lemma:saama	_
+6	Harjumaal	Harjumaa	S	S	Case=ad|Number=sg	3	obl	H_lemma:saama	_
+7	peksa	peksma	V	V	Mood=imper|Number=sg|Person=ps2|Polarity=neg|Tense=pres|VerbType=aux|Voice=ps	3	compound:prt	H_lemma:saama	_
+8	,	,	Z	Z	_	12	punct	H_lemma:looma	_
+9	teda	tema	P	P	Case=part|Number=sg	10	obj	H_lemma:sõidutama	_
+10	sõidutanud	sõidutama	V	V	Tense=past|VerbForm=partic|VerbType=aux|Voice=ps	11	acl	H_lemma:mees	_
+11	mehed	mees	S	S	Case=nom|Number=pl	12	nsubj	H_lemma:looma	_
+12	lõid	looma	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	3	conj	H_lemma:saama	_
+13	noormeest	noormees	S	S	Case=part|Number=sg	12	obj	H_lemma:looma	_
+14	noaga	nuga	S	S	Case=kom|Number=sg	12	obl	H_lemma:looma	_
+15	ning	ning	J	J	_	16	cc	H_lemma:röövima	_
+16	röövisid	röövima	V	V	Mood=indic|Number=sg|Person=ps2|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	3	conj	H_lemma:saama	_
+17	talt	tema	P	P	Case=abl|Number=sg	16	obl	H_lemma:röövima	_
+18	raha	raha	S	S	Case=gen|Number=sg	16	obj	H_lemma:röövima	_
+19	ja	ja	J	J	_	20	cc	H_lemma:kott	_
+20	koti	kott	S	S	Case=gen|Number=sg	18	conj	H_lemma:raha	_
+21	.	.	Z	Z	_	3	punct	H_lemma:saama	_
+
+# sent_id = 12752903
+# text = Sportlase vormis itaallane sõidutab käru sujuvalt välisukse juurde ja võtab justkui muuseas koha sisse .
+1	Sportlase	sportlane	S	S	Case=gen|Number=sg	2	nmod	H_lemma:vorm	_
+2	vormis	vorm	S	S	Case=in|Number=sg	3	nmod	H_lemma:itaallane	_
+3	itaallane	itaallane	S	S	Case=nom|Number=sg	4	nsubj	H_lemma:sõidutama	_
+4	sõidutab	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	0	root	_	_
+5	käru	käru	S	S	Case=gen|Number=sg	4	obj	H_lemma:sõidutama	_
+6	sujuvalt	sujuvalt	D	D	_	4	advmod	H_lemma:sõidutama	_
+7	välisukse	välisuks	S	S	Case=gen|Number=sg	4	obl	H_lemma:sõidutama	_
+8	juurde	juurde	K	K	AdpType=post	7	case	H_lemma:välisuks	_
+9	ja	ja	J	J	_	10	cc	H_lemma:võtma	_
+10	võtab	võtma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	4	conj	H_lemma:sõidutama	_
+11	justkui	justkui	D	D	_	10	mark	H_lemma:võtma	_
+12	muuseas	muuseas	D	D	_	10	advmod	H_lemma:võtma	_
+13	koha	koha	S	S	Case=gen|Number=sg	10	obj	H_lemma:võtma	_
+14	sisse	sisse	K	K	AdpType=post	10	compound:prt	H_lemma:võtma	_
+15	.	.	Z	Z	_	4	punct	H_lemma:sõidutama	_
+
+# sent_id = 13263339
+# text = Kui Polanski tüdruku koju sõidutas , olevat ta enne lahkumist öelnud : « Ära sellest emale või oma poiss-sõbrale räägi .
+1	Kui	kui	D	D	_	5	mark	H_lemma:sõidutama	_
+2	Polanski	Polansk	S	S	Case=gen|Number=sg	5	nsubj	H_lemma:sõidutama	_
+3	tüdruku	tüdruk	S	S	Case=gen|Number=sg	5	obj	H_lemma:sõidutama	_
+4	koju	kodu	S	S	Case=adit|Number=sg	5	obl	H_lemma:sõidutama	_
+5	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	11	advcl	H_lemma:ütlema	_
+6	,	,	Z	Z	_	5	punct	H_lemma:sõidutama	_
+7	olevat	olema	V	V	Mood=quot|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	11	aux	H_lemma:ütlema	_
+8	ta	tema	P	P	Case=nom|Number=sg	11	nsubj	H_lemma:ütlema	_
+9	enne	enne	K	K	AdpType=post	10	case	H_lemma:lahkumine	_
+10	lahkumist	lahkumine	S	S	Case=part|Number=sg	11	obl	H_lemma:ütlema	_
+11	öelnud	ütlema	V	V	Tense=past|VerbForm=partic|VerbType=mod|Voice=ps	0	root	_	_
+12	:	:	Z	Z	_	20	punct	H_lemma:rääkima	_
+13	«	«	Z	Z	_	20	punct	H_lemma:rääkima	_
+14	Ära	ära	V	V	Mood=indic|Polarity=neg|Tense=pres|VerbType=main|Voice=ps	20	aux	H_lemma:rääkima	_
+15	sellest	see	P	P	Case=el|Number=sg	16	det	H_lemma:ema	_
+16	emale	ema	S	S	Case=all|Number=sg	20	obl	H_lemma:rääkima	_
+17	või	või	J	J	_	19	cc	H_lemma:poiss-sõber	_
+18	oma	oma	P	P	Case=gen|Number=sg	19	nmod	H_lemma:poiss-sõber	_
+19	poiss-sõbrale	poiss-sõber	S	S	Case=all|Number=sg	16	conj	H_lemma:ema	_
+20	räägi	rääkima	V	V	Mood=indic|Polarity=neg|Tense=pres|VerbType=aux|Voice=ps	11	parataxis	H_lemma:ütlema	_
+21	.	.	Z	Z	_	11	punct	H_lemma:ütlema	_
+
+# sent_id = 13785982
+# text = India hüüab mind emmeks , sõidutan teda kooli , käin lapsevanemate koosolekutel .
+1	India	India	S	S	Case=nom|Number=sg	2	nsubj	H_lemma:hüüdma	_
+2	hüüab	hüüdma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	0	root	_	_
+3	mind	mina	P	P	Case=part|Number=sg	2	obj	H_lemma:hüüdma	_
+4	emmeks	emm	S	S	Case=tr|Number=sg	2	xcomp	H_lemma:hüüdma	_
+5	,	,	Z	Z	_	6	punct	H_lemma:sõidutama	_
+6	sõidutan	sõidutama	V	V	Mood=indic|Number=sg|Person=ps1|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	2	conj	H_lemma:hüüdma	_
+7	teda	tema	P	P	Case=part|Number=sg	6	obj	H_lemma:sõidutama	_
+8	kooli	kool	S	S	Case=adit|Number=sg	6	obl	H_lemma:sõidutama	_
+9	,	,	Z	Z	_	10	punct	H_lemma:käima	_
+10	käin	käima	V	V	Mood=indic|Number=sg|Person=ps1|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	2	conj	H_lemma:hüüdma	_
+11	lapsevanemate	lapsevanem	S	S	Case=gen|Number=pl	12	nmod	H_lemma:koosolek	_
+12	koosolekutel	koosolek	S	S	Case=ad|Number=pl	10	obl	H_lemma:käima	_
+13	.	.	Z	Z	_	2	punct	H_lemma:hüüdma	_
+
+# sent_id = 13977646
+# text = Mänge ja jõukatsumisi jagub veelgi : Pipi isaga saab maadelda ja kätt suruda , Lumekuninganna sõidutab lapsi ratastega soome kelgul ; kommi jaotatakse ka .
+1	Mänge	mäng	S	S	Case=part|Number=pl	4	nsubj	H_lemma:jaguma	_
+2	ja	ja	J	J	_	3	cc	H_lemma:jõukatsumine	_
+3	jõukatsumisi	jõukatsumine	S	S	Case=part|Number=pl	1	conj	H_lemma:mäng	_
+4	jagub	jaguma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	0	root	_	_
+5	veelgi	veelgi	D	D	_	4	advmod	H_lemma:jaguma	_
+6	:	:	Z	Z	_	10	punct	H_lemma:maadlema	_
+7	Pipi	Pip	S	S	Case=gen|Number=sg	8	nmod	H_lemma:isa	_
+8	isaga	isa	S	S	Case=kom|Number=sg	10	obl	H_lemma:maadlema	_
+9	saab	saama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	10	aux	H_lemma:maadlema	_
+10	maadelda	maadlema	V	V	VerbForm=inf|VerbType=main	4	parataxis	H_lemma:jaguma	_
+11	ja	ja	J	J	_	13	cc	H_lemma:suruma	_
+12	kätt	käsi	S	S	Case=part|Number=sg	13	obj	H_lemma:suruma	_
+13	suruda	suruma	V	V	VerbForm=inf|VerbType=mod	10	conj	H_lemma:maadlema	_
+14	,	,	Z	Z	_	16	punct	H_lemma:sõidutama	_
+15	Lumekuninganna	lumekuninganna	S	S	Case=nom|Number=sg	16	nsubj	H_lemma:sõidutama	_
+16	sõidutab	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	10	conj	H_lemma:maadlema	_
+17	lapsi	laps	S	S	Case=part|Number=pl	16	obj	H_lemma:sõidutama	_
+18	ratastega	ratas	S	S	Case=kom|Number=pl	16	obl	H_lemma:sõidutama	_
+19	soome	soome	G	G	_	20	amod	H_lemma:kelk	_
+20	kelgul	kelk	S	S	Case=ad|Number=sg	16	obl	H_lemma:sõidutama	_
+21	;	;	Z	Z	_	23	punct	H_lemma:jaotama	_
+22	kommi	komm	S	S	Case=part|Number=sg	23	obj	H_lemma:jaotama	_
+23	jaotatakse	jaotama	V	V	Mood=indic|Polarity=af|Tense=pres|VerbType=mod|Voice=imps	10	conj	H_lemma:maadlema	_
+24	ka	ka	D	D	_	23	advmod	H_lemma:jaotama	_
+25	.	.	Z	Z	_	4	punct	H_lemma:jaguma	_
+
+# newdoc = file="aja_sloleht_2005_06_30.tasak.xml" type="artikkel" title="Tavatu liiklusõnnetus Taani lennuväljal" text_no="616284" subcorpus="aja_sloleht">
+# sent_id = 13992294
+# text = Soome peaministrit Matti Vanhaneni sõidutanud takso põrkas Taani lennuväljal kokku Norra valitsusjuhi Kjell Magne Bondeviki lennukiga , keegi õnneks viga ei saanud , teatas meedia .
+1	Soome	Soome	S	S	Case=gen|Number=sg	2	nmod	H_lemma:peaminister	_
+2	peaministrit	peaminister	S	S	Case=part|Number=sg	5	obj	H_lemma:sõidutama	_
+3	Matti	Matti	S	S	Case=nom|Number=sg	2	appos	H_lemma:peaminister	_
+4	Vanhaneni	Vanhanen	S	S	Case=part|Number=sg	3	flat	H_lemma:Matti	_
+5	sõidutanud	sõidutama	V	V	Tense=past|VerbForm=partic|VerbType=main|Voice=ps	6	acl	H_lemma:takso	_
+6	takso	takso	S	S	Case=gen|Number=sg	7	nsubj	H_lemma:põrkama	_
+7	põrkas	põrkama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	0	root	_	_
+8	Taani	Taani	S	S	Case=gen|Number=sg	9	nmod	H_lemma:lennuväli	_
+9	lennuväljal	lennuväli	S	S	Case=ad|Number=sg	7	obl	H_lemma:põrkama	_
+10	kokku	kokku	D	D	_	7	compound:prt	H_lemma:põrkama	_
+11	Norra	Norra	S	S	Case=gen|Number=sg	12	nmod	H_lemma:valitsusjuht	_
+12	valitsusjuhi	valitsusjuht	S	S	Case=gen|Number=sg	16	nmod	H_lemma:lennuk	_
+13	Kjell	Kjell	S	S	Case=nom|Number=sg	12	appos	H_lemma:valitsusjuht	_
+14	Magne	Magne	S	S	Case=gen|Number=sg	13	flat	H_lemma:Kjell	_
+15	Bondeviki	Bondeviki	S	S	Case=gen|Number=sg	13	flat	H_lemma:Kjell	_
+16	lennukiga	lennuk	S	S	Case=kom|Number=sg	7	obl	H_lemma:põrkama	_
+17	,	,	Z	Z	_	22	punct	H_lemma:saama	_
+18	keegi	keegi	P	P	Case=nom|Number=sg	22	nsubj	H_lemma:saama	_
+19	õnneks	õnn	S	S	Case=tr|Number=sg	22	obl	H_lemma:saama	_
+20	viga	viga	S	S	Case=nom|Number=sg	22	obj	H_lemma:saama	_
+21	ei	ei	V	V	Polarity=neg|VerbType=aux	22	aux	H_lemma:saama	_
+22	saanud	saama	V	V	Tense=past|VerbForm=partic|VerbType=main|Voice=ps	7	conj	H_lemma:põrkama	_
+23	,	,	Z	Z	_	24	punct	H_lemma:teatama	_
+24	teatas	teatama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	7	conj	H_lemma:põrkama	_
+25	meedia	meedia	S	S	Case=nom|Number=sg	24	nsubj	H_lemma:teatama	_
+26	.	.	Z	Z	_	7	punct	H_lemma:põrkama	_
+
+# sent_id = 15661576
+# text = Kuu lõpuks pole tavaliselt nii palju pileteid kogunenud , sest Roonurmed sõidutavad tihti lapsed oma autoga kooli .
+1	Kuu	Kuu	S	S	Case=gen|Number=sg	2	nmod	H_lemma:lõpp	_
+2	lõpuks	lõpp	S	S	Case=tr|Number=sg	8	obl	H_lemma:kogunema	_
+3	pole	olema	V	V	Mood=indic|Polarity=neg|Tense=pres|VerbType=aux|Voice=ps	8	aux	H_lemma:kogunema	_
+4	tavaliselt	tavaliselt	D	D	_	8	advmod	H_lemma:kogunema	_
+5	nii	nii	D	D	_	6	advmod	H_lemma:palju	_
+6	palju	palju	D	D	_	7	advmod	H_lemma:pilet	_
+7	pileteid	pilet	S	S	Case=part|Number=pl	8	nsubj	H_lemma:kogunema	_
+8	kogunenud	kogunema	V	V	Tense=past|VerbForm=partic|VerbType=main|Voice=ps	0	root	_	_
+9	,	,	Z	Z	_	12	punct	H_lemma:sõidutama	_
+10	sest	sest	J	J	_	12	mark	H_lemma:sõidutama	_
+11	Roonurmed	roonurm	S	S	Case=nom|Number=pl	12	nsubj	H_lemma:sõidutama	_
+12	sõidutavad	sõidutama	V	V	Mood=indic|Number=pl|Person=ps3|Polarity=af|Tense=pres|VerbType=aux|Voice=ps	8	advcl	H_lemma:kogunema	_
+13	tihti	tihti	D	D	_	12	advmod	H_lemma:sõidutama	_
+14	lapsed	laps	S	S	Case=nom|Number=pl	12	obj	H_lemma:sõidutama	_
+15	oma	oma	P	P	Case=gen|Number=sg	16	nmod	H_lemma:auto	_
+16	autoga	auto	S	S	Case=kom|Number=sg	12	obl	H_lemma:sõidutama	_
+17	kooli	kool	S	S	Case=adit|Number=sg	12	obl	H_lemma:sõidutama	_
+18	.	.	Z	Z	_	8	punct	H_lemma:kogunema	_
+
+# sent_id = 15688335
+# text = “ Iga päev sõidutame oma töötajaid Jõhvist Estonia kaevandusse , seal käib mitmes vahetuses tööl 1700 inimest , ” ütles Rudolf Puks .
+1	“	“	Z	Z	_	4	punct	H_lemma:sõidutama	_
+2	Iga	iga	P	P	Case=nom|Number=sg	3	det	H_lemma:päev	_
+3	päev	päev	S	S	Case=nom|Number=sg	4	obl	H_lemma:sõidutama	_
+4	sõidutame	sõidutama	V	V	Mood=indic|Number=pl|Person=ps1|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	0	root	_	_
+5	oma	oma	P	P	Case=gen|Number=sg	6	nmod	H_lemma:töötaja	_
+6	töötajaid	töötaja	S	S	Case=part|Number=pl	4	obj	H_lemma:sõidutama	_
+7	Jõhvist	Jõhvi	S	S	Case=el|Number=sg	4	obl	H_lemma:sõidutama	_
+8	Estonia	Estonia	S	S	Case=gen|Number=sg	9	nmod	H_lemma:kaevandus	_
+9	kaevandusse	kaevandus	S	S	Case=adit|Number=sg	4	obl	H_lemma:sõidutama	_
+10	,	,	Z	Z	_	12	punct	H_lemma:käima	_
+11	seal	seal	D	D	_	12	advmod	H_lemma:käima	_
+12	käib	käima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	4	conj	H_lemma:sõidutama	_
+13	mitmes	mitu	P	P	Case=in|Number=sg	14	det	H_lemma:vahetus	_
+14	vahetuses	vahetus	S	S	Case=in|Number=sg	12	obl	H_lemma:käima	_
+15	tööl	töö	S	S	Case=ad|Number=sg	12	obl	H_lemma:käima	_
+16	1700	1700	N	N	_	17	nummod	H_lemma:inimene	_
+17	inimest	inimene	S	S	Case=part|Number=sg	12	nsubj	H_lemma:käima	_
+18	,	,	Z	Z	_	4	punct	H_lemma:sõidutama	_
+19	”	”	Z	Z	_	4	punct	H_lemma:sõidutama	_
+20	ütles	ütlema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	4	parataxis	H_lemma:sõidutama	_
+21	Rudolf	Rudolf	S	S	Case=nom|Number=sg	20	nsubj	H_lemma:ütlema	_
+22	Puks	Puks	S	S	Case=nom|Number=sg	21	flat	H_lemma:Rudolf	_
+23	.	.	Z	Z	_	4	punct	H_lemma:sõidutama	_
+
+# sent_id = 15694085
+# text = Nii ma sõidutasin neid oma autoga , ” räägib ta .
+1	Nii	nii	D	D	_	3	advmod	H_lemma:sõidutama	_
+2	ma	mina	P	P	Case=nom|Number=sg	3	nsubj	H_lemma:sõidutama	_
+3	sõidutasin	sõidutama	V	V	Mood=indic|Number=sg|Person=ps1|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	0	root	_	_
+4	neid	tema	P	P	Case=part|Number=pl	3	obj	H_lemma:sõidutama	_
+5	oma	oma	P	P	Case=gen|Number=sg	6	nmod	H_lemma:auto	_
+6	autoga	auto	S	S	Case=kom|Number=sg	3	obl	H_lemma:sõidutama	_
+7	,	,	Z	Z	_	3	punct	H_lemma:sõidutama	_
+8	”	”	Z	Z	_	3	punct	H_lemma:sõidutama	_
+9	räägib	rääkima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	3	parataxis	H_lemma:sõidutama	_
+10	ta	tema	P	P	Case=nom|Number=sg	9	nsubj	H_lemma:rääkima	_
+11	.	.	Z	Z	_	3	punct	H_lemma:sõidutama	_
+
+# sent_id = 15694213
+# text = Mulle pole kasu ka invataksost , sest see sõidutab vaid linlasi , ” räägib Anneli .
+1	Mulle	mina	P	P	Case=all|Number=sg	5	obl	H_lemma:invatakso	_
+2	pole	olema	V	V	Mood=imper|Number=sg|Person=ps2|Polarity=neg|Tense=pres|VerbType=aux|Voice=ps	5	cop	H_lemma:invatakso	_
+3	kasu	kasu	S	S	Case=part|Number=sg	5	nsubj:cop	H_lemma:invatakso	_
+4	ka	ka	D	D	_	5	advmod	H_lemma:invatakso	_
+5	invataksost	invatakso	S	S	Case=el|Number=sg	0	root	_	_
+6	,	,	Z	Z	_	9	punct	H_lemma:sõidutama	_
+7	sest	sest	J	J	_	9	mark	H_lemma:sõidutama	_
+8	see	see	P	P	Case=nom|Number=sg	9	nsubj	H_lemma:sõidutama	_
+9	sõidutab	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	5	advcl	H_lemma:invatakso	_
+10	vaid	vaid	D	D	_	11	advmod	H_lemma:linlane	_
+11	linlasi	linlane	S	S	Case=part|Number=pl	9	obj	H_lemma:sõidutama	_
+12	,	,	Z	Z	_	5	punct	H_lemma:invatakso	_
+13	”	”	Z	Z	_	14	punct	H_lemma:rääkima	_
+14	räägib	rääkima	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	5	parataxis	H_lemma:invatakso	_
+15	Anneli	Anneli	S	S	Case=nom|Number=sg	14	nsubj	H_lemma:rääkima	_
+16	.	.	Z	Z	_	5	punct	H_lemma:invatakso	_
+
+# sent_id = 16939274
+# text = Halastamatu kell tiksus viimase minuti sekundeid , kui Markko oma uueks tehtud Fordi Eesti rallisõprade ovatsioonide saatel boksist välja sõidutas , veriste sõrmenukkidega Michael oli , “ noodid ” kaenla all , teda juba teeninduspargi ajakontrolli väravas ootamas .
+1	Halastamatu	halastamatu	A	A	Case=nom|Number=sg	2	amod	H_lemma:kell	_
+2	kell	kell	S	S	Case=nom|Number=sg	3	nsubj	H_lemma:tiksuma	_
+3	tiksus	tiksuma	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=main|Voice=ps	0	root	_	_
+4	viimase	viimane	A	A	Case=gen|Number=sg	5	amod	H_lemma:minut	_
+5	minuti	minut	S	S	Case=gen|Number=sg	6	nmod	H_lemma:sekund	_
+6	sekundeid	sekund	S	S	Case=part|Number=pl	3	obj	H_lemma:tiksuma	_
+7	,	,	Z	Z	_	20	punct	H_lemma:sõidutama	_
+8	kui	kui	D	D	_	20	mark	H_lemma:sõidutama	_
+9	Markko	Markko	S	S	Case=nom|Number=sg	20	nsubj	H_lemma:sõidutama	_
+10	oma	oma	P	P	Case=gen|Number=sg	13	nmod	H_lemma:Ford	_
+11	uueks	uus	A	A	Case=tr|Number=sg	12	xcomp	H_lemma:tehtud	_
+12	tehtud	tehtud	A	A	Case=nom|Number=pl	13	acl	H_lemma:Ford	_
+13	Fordi	Ford	S	S	Case=gen|Number=sg	20	obj	H_lemma:sõidutama	_
+14	Eesti	Eesti	S	S	Case=gen|Number=sg	15	nmod	H_lemma:rallisõber	_
+15	rallisõprade	rallisõber	S	S	Case=gen|Number=pl	16	nmod	H_lemma:ovatsioon	_
+16	ovatsioonide	ovatsioon	S	S	Case=gen|Number=pl	20	obl	H_lemma:sõidutama	_
+17	saatel	saatel	K	K	AdpType=post	16	case	H_lemma:ovatsioon	_
+18	boksist	boks	S	S	Case=el|Number=sg	20	obl	H_lemma:sõidutama	_
+19	välja	välja	D	D	_	20	compound:prt	H_lemma:sõidutama	_
+20	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	3	advcl	H_lemma:tiksuma	_
+21	,	,	Z	Z	_	23	punct	H_lemma:sõrmenukk	_
+22	veriste	verine	A	A	Case=gen|Number=pl	23	amod	H_lemma:sõrmenukk	_
+23	sõrmenukkidega	sõrmenukk	S	S	Case=kom|Number=pl	30	nmod	H_lemma:kaenal	_
+24	Michael	Michael	S	S	Case=nom|Number=sg	23	appos	H_lemma:sõrmenukk	_
+25	oli	olema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	30	cop	H_lemma:kaenal	_
+26	,	,	Z	Z	_	28	punct	H_lemma:noot	_
+27	“	“	Z	Z	_	28	punct	H_lemma:noot	_
+28	noodid	noot	S	S	Case=nom|Number=pl	30	nsubj:cop	H_lemma:kaenal	_
+29	”	”	Z	Z	_	28	punct	H_lemma:noot	_
+30	kaenla	kaenal	S	S	Case=gen|Number=sg	20	conj	H_lemma:sõidutama	_
+31	all	all	K	K	AdpType=post	30	case	H_lemma:kaenal	_
+32	,	,	Z	Z	_	38	punct	H_lemma:ootama	_
+33	teda	tema	P	P	Case=part|Number=sg	38	obj	H_lemma:ootama	_
+34	juba	juba	D	D	_	38	advmod	H_lemma:ootama	_
+35	teeninduspargi	teeninduspark	S	S	Case=gen|Number=sg	36	nmod	H_lemma:ajakontroll	_
+36	ajakontrolli	ajakontroll	S	S	Case=gen|Number=sg	37	nmod	H_lemma:värav	_
+37	väravas	värav	S	S	Case=in|Number=sg	38	obl	H_lemma:ootama	_
+38	ootamas	ootama	V	V	Case=in|VerbForm=sup|VerbType=main|Voice=ps	30	advcl	H_lemma:kaenal	_
+39	.	.	Z	Z	_	3	punct	H_lemma:tiksuma	_
+
+# sent_id = 17097033
+# text = Lisaks põlevkivi vedamisele sõidutab Põlevkivi Raudtee kohalikke töötajaid Jõhvist Estonia kaevandusse .
+1	Lisaks	lisa	S	S	Case=tr|Number=sg	4	obl	H_lemma:sõidutama	_
+2	põlevkivi	põlevkivi	S	S	Case=gen|Number=sg	3	nmod	H_lemma:vedamine	_
+3	vedamisele	vedamine	S	S	Case=all|Number=sg	1	nmod	H_lemma:lisa	_
+4	sõidutab	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=main|Voice=ps	0	root	_	_
+5	Põlevkivi	põlevkivi	S	S	Case=nom|Number=sg	4	nsubj	H_lemma:sõidutama	_
+6	Raudtee	raudtee	S	S	Case=gen|Number=sg	8	nmod	H_lemma:töötaja	_
+7	kohalikke	kohalik	A	A	Case=part|Number=pl	8	amod	H_lemma:töötaja	_
+8	töötajaid	töötaja	S	S	Case=part|Number=pl	4	obj	H_lemma:sõidutama	_
+9	Jõhvist	Jõhvi	S	S	Case=el|Number=sg	4	obl	H_lemma:sõidutama	_
+10	Estonia	Estonia	S	S	Case=gen|Number=sg	11	nmod	H_lemma:kaevandus	_
+11	kaevandusse	kaevandus	S	S	Case=adit|Number=sg	4	obl	H_lemma:sõidutama	_
+12	.	.	Z	Z	_	4	punct	H_lemma:sõidutama	_
+
+# sent_id = 17236306
+# text = “ Ta on ekslikult siia saadetud , ” ütles ta telefoni ning sõidutas mu liftiga korrus kõrgemale , neuroloogia osakonda .
+1	“	“	Z	Z	_	6	punct	H_lemma:saatma	_
+2	Ta	tema	P	P	Case=nom|Number=sg	6	obj	H_lemma:saatma	_
+3	on	olema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=pres|VerbType=mod|Voice=ps	6	aux	H_lemma:saatma	_
+4	ekslikult	ekslikult	D	D	_	6	advmod	H_lemma:saatma	_
+5	siia	siia	D	D	_	6	advmod	H_lemma:saatma	_
+6	saadetud	saatma	V	V	Mood=indic|Polarity=neg|Tense=impf|VerbType=main|Voice=imps	0	root	_	_
+7	,	,	Z	Z	_	6	punct	H_lemma:saatma	_
+8	”	”	Z	Z	_	6	punct	H_lemma:saatma	_
+9	ütles	ütlema	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=aux|Voice=ps	6	parataxis	H_lemma:saatma	_
+10	ta	tema	P	P	Case=nom|Number=sg	9	nsubj	H_lemma:ütlema	_
+11	telefoni	telefon	S	S	Case=gen|Number=sg	9	obj	H_lemma:ütlema	_
+12	ning	ning	J	J	_	13	cc	H_lemma:sõidutama	_
+13	sõidutas	sõidutama	V	V	Mood=indic|Number=sg|Person=ps3|Polarity=af|Tense=impf|VerbType=mod|Voice=ps	9	conj	H_lemma:ütlema	_
+14	mu	mina	P	P	Case=gen|Number=sg	15	nmod	H_lemma:lift	_
+15	liftiga	lift	S	S	Case=kom|Number=sg	13	obl	H_lemma:sõidutama	_
+16	korrus	korrus	S	S	Case=nom|Number=sg	13	obj	H_lemma:sõidutama	_
+17	kõrgemale	kõrgemale	D	D	_	13	advmod	H_lemma:sõidutama	_
+18	,	,	Z	Z	_	20	punct	H_lemma:osakond	_
+19	neuroloogia	neuroloogia	S	S	Case=gen|Number=sg	20	nmod	H_lemma:osakond	_
+20	osakonda	osakond	S	S	Case=adit|Number=sg	17	conj	H_lemma:kõrgemale	_
+21	.	.	Z	Z	_	6	punct	H_lemma:saatma	_
+
