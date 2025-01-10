@@ -1,5 +1,5 @@
 # Lausemallide automaatne tuvastamine
-Siin repositooriumis asub materjal, mida kasutati Kertu Sauli magistritöös "Eesti keele lausemallide automaatne tuvastamine liigutamisverbide näitel" ning Kertu Sauli, Kadri Muischneki ja Jelena Kallase artiklis "„Keeleteadlane raputab lausemalle korpusest loendisse“ – lausemallide automaatse tuvastamise esimesed sammud. 
+Siin repositooriumis asub materjal, mida kasutati Kertu Sauli magistritöös "Eesti keele lausemallide automaatne tuvastamine liigutamisverbide näitel" ning Kertu Sauli, Kadri Muischneki ja Jelena Kallase artiklis "„Keeleteadlane raputab lausemalle korpusest loendisse“ – lausemallide automaatse tuvastamise esimesed sammud". 
 
 ## Failid
 
